@@ -1,0 +1,1948 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\usepackage{babel}
+\usepackage{hyperref}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{sectsty}
+%\usepackage{graphics}
+\usepackage{float}
+\usepackage{graphicx}
+
+\definecolor{JBlue}{HTML}{0051BA}
+\definecolor{Night}{HTML}{003459}
+\definecolor{Brick}{HTML}{971b2f}
+
+\sectionfont{\color{JBlue}}
+\subsectionfont{\color{Night}}
+\subsubsectionfont{\color{Brick}}
+
+\fancypagestyle{mypagestyle}{%
+  	\fancyhf{}% Clear header/footer
+	\fancyhead[LE, RO]{ Three modes of information-based differentiation  \\
+                        Proposed presentation}
+	\fancyhead[RE, LO]{SMS 41st Annual Conference \\ 
+                       Toronto, Sep 18-21, 2021}
+	\fancyfoot[C]{\thepage   }
+	  \renewcommand{\headrulewidth}{.4pt}% Header rule of .4pt
+}
+
+
+\fancypagestyle{specialfooter}{%
+  \fancyhf{}
+  \renewcommand\headrulewidth{0pt}
+	\fancyfoot[C]{\thepage  }
+}
+\pagestyle{mypagestyle}
+
+
+%\usepackage{blindtext}
+%\pagestyle{fancy}
+
+
+
+\title{\bfseries{\textcolor{JBlue}{ The three modes of information-based differentiation }}  }
+
+
+\author{SMS 41st Annual conference \\ Toronto, ON, September 18-21, 2021  }
+\date{\small February 28, 2021}
+\end_preamble
+\options twoside
+\use_default_options false
+\begin_modules
+multicol
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding iso8859-15
+\fontencoding T1
+\font_roman "default" "Avenir"
+\font_sans "default" "Avenir"
+\font_typewriter "default" "Athelas"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 4cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\headheight 4.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sloppy
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+twocolumn
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{specialfooter}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Introduction
+\end_layout
+
+\begin_layout Standard
+That we operate in an 
+\begin_inset Quotes eld
+\end_inset
+
+Information-Age Economy
+\begin_inset Quotes eld
+\end_inset
+
+has been a cliché for a generation (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shapiro1998"
+literal "false"
+
+\end_inset
+
+).
+ Peter Drucker anticipated as early as the late 1950s the emergence of 
+\shape italic
+knowledge work
+\shape default
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wartzman2014"
+literal "false"
+
+\end_inset
+
+).
+ He subsequently foresaw that, 
+\begin_inset Quotes eld
+\end_inset
+
+knowledge 
+\begin_inset Formula $\langle$
+\end_inset
+
+becomes
+\begin_inset Formula $\rangle$
+\end_inset
+
+ a more-crucial economic resource than land, labor, or financial assets,
+\begin_inset Quotes erd
+\end_inset
+
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drucker1992"
+literal "false"
+
+\end_inset
+
+) leading to what he called a 
+\begin_inset Quotes eld
+\end_inset
+
+post-capitalist society
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Porter and Millar (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porter1985"
+literal "false"
+
+\end_inset
+
+) observed 
+\begin_inset Quotes eld
+\end_inset
+
+the information revolution sweeping through our economy
+\begin_inset Quotes erd
+\end_inset
+
+ in the mid-1980s.
+ They provided heuristic descriptions of informational impacts in terms
+ of existing value-chain frameworks for the analysis of strategy.
+ Although this early work did not anticipate early-21
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+st
+\end_layout
+
+\end_inset
+
+-century emergent operating models, likely strategic impacts were described.
+ These included improved operational efficiencies, more-tailored responsiveness
+ to market pulls, and adaptively shifting competitive scope.
+\end_layout
+
+\begin_layout Standard
+We consider here the broader strategic implications of information, beyond
+ just operational efficiency.
+ 
+\shape italic
+If
+\shape default
+ knowledge is indeed a 
+\begin_inset Quotes eld
+\end_inset
+
+more-crucial resource than land, labor, or financial assets
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+, 
+\shape italic
+then
+\shape default
+ its significance certainly must be in some regards strategic.
+\end_layout
+
+\begin_layout Standard
+Information is, in fact, the stuff that feeds decision-making — whether
+ it be strategic or mundanely operational (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kochebnderfer2015"
+literal "false"
+
+\end_inset
+
+).
+ Certainly, decision-making can be a strategic activity (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Leiblein2018"
+literal "false"
+
+\end_inset
+
+).
+ Recently, high degrees of concentration of information under the control
+ of a small number of large technology firms have led to commensurate concentrat
+ions of marketplace power (e.g., 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iansiti2017,Bond2018"
+literal "false"
+
+\end_inset
+
+).
+ The development of methods to attribute economic value to information are
+ correspondingly emerging topics of interest for both research and regulation
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Foroohar2019"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+We undertake here the ambitious task of formulating a generalized framework
+ for characterizing competitive differentiation based on information.
+ The discipline of Information Economics provides our foundation (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Laffont1989,Birchler1999,Brunnermeier2001"
+literal "false"
+
+\end_inset
+
+).
+ This field is exactly focused on informational-value attribution.
+\end_layout
+
+\begin_layout Standard
+Information Economics finds its most-common applications in financial markets.
+ It provides theories and operating concepts for markets and their equilibria.
+ Its principles also influence quantitative — or algorithmic — trading (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Narang2009"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+This study proceeds as follows.
+ We first introduce the relevant principles from Information Economics.
+ We make the case for their employment as bases for understanding information-ba
+sed competitive differentiation.
+ We treat these basic principles as axioms.
+\end_layout
+
+\begin_layout Standard
+From these axioms, three distinct modes of information-based differentiation
+ emerge.
+ We further explore each mode in turn.
+ We first revisit how our information-economic axioms appear for a given
+ mode of differentiation mode.
+ We then examine exemplary operating models conforming to that mode.
+ We finally consider the defensibility of advantages based on each mode.
+\end_layout
+
+\begin_layout Standard
+We conclude with an outline in broad strokes of a framework for thinking
+ about 
+\shape italic
+Return on Information
+\shape default
+.
+ The potential to deliberately frame an organization's 
+\shape italic
+Strategic Information Agenda
+\shape default
+ results.
+ This is consistent with the 
+\begin_inset Quotes eld
+\end_inset
+
+
+\shape italic
+strategizing before strategic decision-making
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ methodology by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nickerson2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+It occurs in the end that a strategic information agenda seeks to align
+ technology and other organizational competencies in order to realize a
+ defensible, differentiated position in the marketplace.
+ This is consistent with observations from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kane2015"
+literal "false"
+
+\end_inset
+
+ that, 
+\begin_inset Quotes eld
+\end_inset
+
+Strategy, not technology, drives digital transformation.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section*
+The Information Economics of Competitive Differentiation
+\end_layout
+
+\begin_layout Standard
+Information Economics seeks to systematically attribute economic value to
+ information.
+ The field resides at the nexus of three other disciplines.
+ We synopsize them here and motivate their generalization.
+\end_layout
+
+\begin_layout Standard
+First, Information Theory characterizes uncertainty and information.
+ It spans two branches.
+ Its probability-and-statistics view came from the telecommunications industry
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shannon1948,Gallagher1968"
+literal "false"
+
+\end_inset
+
+).
+ Borrowing from the field of statistical thermodynamics (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ben-Naim2008"
+literal "false"
+
+\end_inset
+
+), it quantifies states of knowledge on a continuum from complete ignorance
+ to perfect certainty.
+ Information and uncertainty turn out to be different sides of the same
+ coin (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Briggs2016"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Semantic (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Zhong2017"
+literal "false"
+
+\end_inset
+
+) and syntactic (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chomsky2014"
+literal "false"
+
+\end_inset
+
+) branches of information theory combine into a complementary view.
+ These disciplines delve into the realm of human cognition.
+ Less mathematically-tractable, they nonetheless provide practical frameworks
+ for charactering the state of knowledge on which decisions are based.
+\end_layout
+
+\begin_layout Standard
+Game theory provides the second leg of the Information-Economics tripod.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Birchler1999"
+literal "false"
+
+\end_inset
+
+ specifically focus on 
+\shape italic
+the elementary game
+\shape default
+.
+ Its use serves to explain how market equilibria occur even in the presence
+ of information asymmetries (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Brunnermeier2001"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Finally, microeconomic principles bring in the utility perspective.
+ Marketplace transactions effect exchanges in utility between counter-parties.
+ Desirable transactions are win-win, resulting in net-positive changes to
+ counter-parties' collective utility.
+\end_layout
+
+\begin_layout Standard
+Information-Economics concepts are typically applied to explaining the operation
+s of transactional markets.
+ They explain how, for example, bid and ask prices during negotiation disclose
+ counter-parties' proprietary positions.
+\end_layout
+
+\begin_layout Standard
+Extending Information Economics principles beyond their transactional context
+ comprises our present ambition.
+ How do we propose to accomplish this? We shift our focus from information's
+ role as a transactional asset to that of a strategic asset along the lines
+ suggested by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drucker1992"
+literal "false"
+
+\end_inset
+
+.
+ We want moreover to look beyond the focus in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drucker1999"
+literal "false"
+
+\end_inset
+
+ on operational efficiency.
+ Our strategic-impact characterization follows from the utility derived
+ from acting on it.
+\end_layout
+
+\begin_layout Standard
+Information in a strategic context supports decision-making about marketplace
+ positioning, organizational design, and operational alignment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Leiblein2018"
+literal "false"
+
+\end_inset
+
+.
+ The value of strategic information can therefore be quantified in terms
+ influencing corporate financials, such as balance-sheet assets and realized
+ revenue on income statements.
+\end_layout
+
+\begin_layout Standard
+The role advocated here for information's contribution to differentiation
+ is not altogether unprecedented.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ lists 
+\begin_inset Quotes eld
+\end_inset
+
+Sensing
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ as one of three 
+\begin_inset Quotes eld
+\end_inset
+
+Dynamic Capabilities
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ leading to sustainable enterprise performance (p.
+ 48).
+ Sensing spans systems and processes to 
+\begin_inset Quotes eld
+\end_inset
+
+learn, sense, filter, shape, and calibrate opportunities
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2012"
+literal "false"
+
+\end_inset
+
+ moreover identify 
+\begin_inset Quotes eld
+\end_inset
+
+Signal Advantage
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ as one of five components for 
+\shape italic
+Adaptive Advantage
+\shape default
+ (pp.
+ 87-171).
+ Their framework identifies maturity stages beginning with the tactical
+ and technical competencies of handling data, to shaping the informational
+ landscape.
+\end_layout
+
+\begin_layout Standard
+What then does Information Economics have to contribute to this established
+ body of work? We seek — through laying a more-formal undergirding derived
+ from economic theory — to provide opportunities for more-systematic characteriz
+ation and management of the complexities underlying competitive differentiation.
+\end_layout
+
+\begin_layout Standard
+Decision Analysis represents the most-immediate beneficiary to which a theory
+ of information-based differentiation might innovatively contribute.
+ Thereafter, operational and organizational modeling may also benefit.
+\end_layout
+
+\begin_layout Subsection*
+Information-Economics Concepts
+\end_layout
+
+\begin_layout Standard
+Birchler and Bütler present a view of information that is in a narrow sense
+ strategic (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Birchler1999"
+literal "false"
+
+\end_inset
+
+).
+ They distinguish between 
+\shape italic
+strategic
+\shape default
+ and 
+\shape italic
+non-strategic
+\shape default
+ players.
+ Given information, strategic players seek to maximize their utility.
+ Non-strategic players play blindly.
+ In financial economics, some employ this criterion to distinguish between
+ investors and gamblers.
+\end_layout
+
+\begin_layout Standard
+This leads to our 
+\shape italic
+essential axiom
+\shape default
+ from Information Economics: 
+\begin_inset Quotes eld
+\end_inset
+
+The value of information is the increase in utility an expects from receiving
+ the information 
+\shape italic
+and
+\shape default
+ from optimally reacting to it
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 32"
+key "Birchler1999"
+literal "false"
+
+\end_inset
+
+.
+ We then have two components to our valuation framework.
+\end_layout
+
+\begin_layout Subsubsection*
+The Informational Component of Information Valuation.
+\end_layout
+
+\begin_layout Standard
+We first have the information itself.
+ We must attribute a degree of confidence to the information.
+ We consider it in terms of the extent to which it supports — or not — an
+ assertion about a specific state of nature.
+ We are only certain of such states on the rarest of occasions.
+ Some degree of doubt nearly always burdens us.
+\end_layout
+
+\begin_layout Standard
+The 1998 motion picture 
+\shape italic
+The Red Violin
+\shape default
+ illustrates through an example resembling one used by 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "pp. 5-6"
+key "Shafer1976"
+literal "false"
+
+\end_inset
+
+.
+ The main character — an appraiser of rare musical instruments — is hired
+ to inspect a lot to be auctioned off by a world-renowned auction house.
+ The lot contains a specimen he suspects might be the lost masterpiece from
+ an Italian master craftsman.
+\end_layout
+
+\begin_layout Standard
+Our hero begins collecting evidence to establish the instrument's authenticity.
+ A lab technician measures acoustic spectra.
+ A world-famous virtuoso plays it, then coyly displays ambivalence.
+ Minuscule samples of paint and wood are sent for laboratory analysis and
+ dating.
+ instrument's interior is inspected — using an electro-optical device —
+ to discover what appears to be the master craftsman's signature.
+\end_layout
+
+\begin_layout Standard
+Each piece of evidence in isolation supports to varying degrees our appraiser's
+ belief in the instrument's authenticity.
+ When the main character assembles them all, he acquires a degree of confidence
+ on which to take a substantial risk.
+\end_layout
+
+\begin_layout Subsubsection*
+The Utility-Realization Component of Information Valuation.
+\end_layout
+
+\begin_layout Standard
+Acting on our information produces some payoff.
+ This arises from our decision to act — or not — given the degree of confidence
+ we have in our evidentiary corpus, to borrow a term from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Smets1994"
+literal "false"
+
+\end_inset
+
+.
+ This is driven by another fundamental principle, the 
+\shape italic
+von Neumann-Morgenstern axioms
+\shape default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "pp. 57-64"
+key "Kochebnderfer2015"
+literal "false"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pettigrew2016"
+literal "false"
+
+\end_inset
+
+ describes 
+\shape italic
+Epistemic Utility Theory
+\shape default
+, a closely-related principle (pp.
+ 1-9).
+\end_layout
+
+\begin_layout Standard
+These guidelines basically tell us to optimize our 
+\shape italic
+expected
+\shape default
+ utility.
+ What the best outcome is, utility-wise, is based on our organization's
+ policies, priorities, appetite for risk, competencies, and other considerations.
+ It provides a coherent framework keeping straight the things that matter
+ to us.
+\end_layout
+
+\begin_layout Standard
+Now, in our utility-maximization principle, 
+\shape italic
+expected
+\shape default
+ becomes the operative word.
+ Our outcomes are very-rarely certain.
+ We have two sources of variability that may cause actual outcomes to differ
+ from expectations.
+ First, we have some residual uncertainty in our information.
+ We do not assert with complete certainty that our evidence unequivocally
+ supports exactly the state of nature our actions assume.
+ This ambiguity weights on what our exceptions are.
+\end_layout
+
+\begin_layout Standard
+Secondly, there may be variability in the affects from actions we take maximize
+ our utility.
+ We might be outbid in trying to acquire a piece of real estate.
+ Or our action might be to launch a capital investment in an IT project.
+ Such concerns can be notoriously fraught (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Flyvbjerg2011"
+literal "false"
+
+\end_inset
+
+).
+ Seizing — in terms of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ — may require us to exercise previously-undemonstrated organizational competenc
+ies.
+ These may in turn lead to hedging, which further complicates our utility
+ calculation.
+\end_layout
+
+\begin_layout Subsection*
+Modes of Information Differentiation
+\end_layout
+
+\begin_layout Standard
+The mathematical mechanisms of 
+\shape italic
+Dempster-Shafer Theory
+\shape default
+ and 
+\shape italic
+von Neumann-Morgenstern Axioms
+\shape default
+ plug very cleanly into each other to give us a formal framework for information
+-based differentiation.
+ From this we get a rigorous set of tools with which to formally parse our
+ present circumstances first described by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porter1985"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Furthermore, how we acquire and evaluate evidence touches on Teece's Sensing
+ dynamic capability and Reeve's Sensing advantage.
+ The efficacy of our actions in response to our evidence touches on Teece's
+ Seizing dynamic capability.
+ It also underlies the Organization and Systems advantages from Reeves.
+\end_layout
+
+\begin_layout Standard
+Integrating these together scientifically occurs through modeling.
+ Tools from Decision Analysis guide us in understanding the strength of
+ our evidence.
+ They in turn bridge into organizational and operational models to formulate
+ beliefs about the efficacy of intended actions.
+ Our Information-Economics framework — coupling Dempster-Shafer with von
+ Neumann-Morgenstern — provides the mechanisms for integration.
+ Treating these principles as axioms leads us to identify three distinct
+ modes of information-based differentiation.
+\end_layout
+
+\begin_layout Subsubsection*
+Getting Evidence that Others Lack.
+\end_layout
+
+\begin_layout Standard
+We refer to this as 
+\shape italic
+Differentiated Access
+\shape default
+.
+ We enjoy no information advantage from acting on the same body of evidence
+ as our competitors.
+ We may decide to act differently from them, based on policies, risk appetitive,
+ and other considerations.
+ But given the same evidentiary base, we should arrive at the same conclusions
+ as our competitors about the state of affairs.
+\end_layout
+
+\begin_layout Standard
+The disciplines of Business Analytics and insights-extraction-style Artificial
+ Intelligence (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Davenport2018"
+literal "false"
+
+\end_inset
+
+) offer one somewhat-technical illustration.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cover1991"
+literal "false"
+
+\end_inset
+
+ describe a very fundamental mathematical result telling us that we can
+ only do so well with a given data set (pp.
+ 32-33).
+ No amount of clever processing will reduce our residual uncertainty about
+ any question beyond limits of the data, given their essential characteristics.
+ John Maynard Keynes referred to this as 
+\begin_inset Quotes eld
+\end_inset
+
+irreducible uncertainty
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 739"
+key "Keynes1921"
+literal "false"
+
+\end_inset
+
+).
+ Operating on the same information base as our competitors should not usually
+ give us any advantage.
+\end_layout
+
+\begin_layout Standard
+Things are different when information asymmetries arise.
+ Our 
+\shape italic
+Red Violin
+\shape default
+ story offers illustrations.
+ Our appraiser was not at first completely forthright with his auction-house
+ clients.
+ He did not apprise them of all of his evidence-gathering activities, or
+ even of his suspicion about the provenance of the violin.
+\end_layout
+
+\begin_layout Standard
+At one point in the story, the superstar virtuoso's reaction was the only
+ evidence that the auction-house managers had.
+ That information on the surface might tend to refute any suspicions that
+ the instrument was anything special.
+ Evidence attesting to its authenticity was however piling up on the desk
+ of our appraiser.
+ He temporarily enjoyed a considerable information advantage.
+\end_layout
+
+\begin_layout Standard
+When the auction-house managers however started double-checking on the appraiser
+'s expenses, they recognized the full extent of his evidentiary collection.
+ All the cards were then laid out on the table.
+ The information advantage vanished.
+\end_layout
+
+\begin_layout Subsubsection*
+Seeing Things in the Evidence that Others Overlook.
+\end_layout
+
+\begin_layout Standard
+We refer to this as 
+\shape italic
+Differentiated Insights
+\shape default
+.
+ Nuance distinguishes this from the previous mode.
+ All concerned parties have access to the same body of evidence.
+ For the technical reasons described above, any conventional data analytics
+ should produce the same results, assuming parity in analytical competencies.
+\end_layout
+
+\begin_layout Standard
+One concerned party however reads the evidence differently.
+ This might be due to freedom from biases or preconceptions.
+ Or, it might arise from an advantage in skills of imagination.
+ These lead one to interpret the evidence differently.
+\end_layout
+
+\begin_layout Standard
+In our 
+\shape italic
+Red Violin
+\shape default
+ illustration, suppose that the auction-house manager knew the superstar
+ virtuoso well.
+ Perhaps she had dealt with him previously, and knew that he didn't always
+ deal forthrightly.
+ She might recognize his purported ambivalence about the particular violin
+ as disingenuous.
+ Her refined musical ear might detect a certain quality to its sound.
+ These together might lead her to suspect some unusual and interesting about
+ the instrument's provenance.
+ Although this evidence was less-strong than that compiled by the appraiser,
+ it would not support a conclusion that the violin was 
+\begin_inset Quotes eld
+\end_inset
+
+nothing special.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Taking Actions Others Cannot.
+\end_layout
+
+\begin_layout Standard
+We call this 
+\shape italic
+Differentiated Ability to Act
+\shape default
+.
+ When no information asymmetries exist, the greatest expected utility accrues
+ to those with the strongest efficacy of means.
+ In the case of our 
+\shape italic
+Red Violin
+\shape default
+ illustration, once the instrument reached open auction recognized as an
+ authentic lost masterpiece, it was beyond the reach of our appraiser.
+ Only the well-financed could hope to offer winning bids.
+\end_layout
+
+\begin_layout Standard
+In terms of the Dynamic Capabilities from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+, Differentiated Ability to Act is about Seizing.
+ Once multiple parties have sensed an opportunity, the greatest utility
+ should accrue to whomever can decisively engage sufficient resources.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+ touches on this primarily through Organization and Systems advantages.
+\end_layout
+
+\begin_layout Section*
+Conclusions
+\end_layout
+
+\begin_layout Standard
+In an information-driven economy, information becomes a decisive asset.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drucker1992"
+literal "false"
+
+\end_inset
+
+ foresaw that 
+\begin_inset Quotes eld
+\end_inset
+
+knowledge 
+\begin_inset Formula $\langle$
+\end_inset
+
+becomes
+\begin_inset Formula $\rangle$
+\end_inset
+
+ a more-crucial economic resource than land, labor, or financial assets....
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ Subsequent business-strategy frameworks — most-notably 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+ — consider this through competency views of competitive advantage.
+ Each refers to a 
+\shape italic
+Sensing
+\shape default
+ capability.
+ These address how organizations acquire and interpret information to formulate
+ pictures of their competitive landscapes.
+\end_layout
+
+\begin_layout Standard
+We describe here an information-economics formalism undergirding to these
+ competency frameworks for differentiation.
+ We combine principles from 
+\shape italic
+Theory of Evidence
+\shape default
+ with 
+\shape italic
+Utility Maximization
+\shape default
+.
+ They together provide a formal structure for thinking about information-based
+ differentiation.
+\end_layout
+
+\begin_layout Standard
+Treating these concepts as axioms leads to three distinct modes of deriving
+ advantage from informational asymmetries.
+ We can acquire information that others do not have.
+ This results primarily through business models deliberately designed to
+ produce it.
+\end_layout
+
+\begin_layout Standard
+We can alternatively achieve information asymmetries through differentiated
+ insights.
+ This amounts to seeing things — hidden in plain sight — within the evidence
+ that others may have missed.
+ This might occur due to freedom from biases encumbering others, or from
+ a sharper sense of imagination.
+ Recognizing opportunities for disruption fits in this category.
+\end_layout
+
+\begin_layout Standard
+Finally, we might exercise a greater ability to take action given a recognized
+ state affairs supported by the commonly available evidence.
+ These advantages accrue due to aspects of organizational factors.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ particularly emphasizes these in his 
+\begin_inset Quotes eld
+\end_inset
+
+Seizing
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ dynamic capability.
+ In the absence of information asymmetries, the most-capable organization
+ should realize the greatest utility from an opportunity.
+ This mode of information-based differentiation turns out to be the hardest
+ to replicate.
+\end_layout
+
+\begin_layout Standard
+The formalism of this information-economics approach to differentiation
+ offers the potential to address questions of competitiveness more-systematicall
+y than perhaps otherwise.
+ It provides a mathematical structure to unify different management-science
+ disciplines.
+ The most-immediate benefits accrue to Decision Analysis.
+ Subsequently, closer integration with organizational and operational modeling
+ appear practical.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+onecolumn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ben-Naim2008"
+key "Ben-Naim2008"
+literal "false"
+
+\end_inset
+
+ Ben-Naim A (2008) 
+\shape italic
+Statistical Thermodynamics Based on Information: A Farewell to Entropy
+\shape default
+ (World Scientific, Hackensack, NJ).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Birchler1999"
+key "Birchler1999"
+literal "true"
+
+\end_inset
+
+ Birchler U, Bütler M (1999) 
+\shape italic
+Information Economics
+\shape default
+ (Routledge, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Bond2018"
+key "Bond2018"
+literal "false"
+
+\end_inset
+
+ Bond S (2018) Amazon's ever-increasing power unnerves vendors.
+ 
+\shape italic
+Financial Times
+\shape default
+ September 20, 2018, https://www.ft.com/content/c82ce968-bc8a-11e8-94b2-17176fbf93
+f5.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Briggs2016"
+key "Briggs2016"
+literal "false"
+
+\end_inset
+
+ Briggs W (2016) 
+\shape italic
+Uncertainty: The Soul of Modeling, Probability, & Statistics
+\shape default
+ (Springer International Publishing AG, Switzerland).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Brunnermeier2001"
+key "Brunnermeier2001"
+literal "false"
+
+\end_inset
+
+ Brunnermeier M K (2001) 
+\shape italic
+Asset Pricing under Asymmetric Information: Bubbles, Crashes, Technical
+ Analysis, and Herding
+\shape default
+ (Oxford University Press, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Chomsky2014"
+key "Chomsky2014"
+literal "false"
+
+\end_inset
+
+ Chomsky N (2014) 
+\shape italic
+Aspects of the Theory of Syntax
+\shape default
+ (MIT Press, Cambridge, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Cover1991"
+key "Cover1991"
+literal "false"
+
+\end_inset
+
+ Cover T M, Thomas J A (1991) 
+\shape italic
+Elements of Information Theory
+\shape default
+ (Wiley-Interscience, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Davenport2018"
+key "Davenport2018"
+literal "false"
+
+\end_inset
+
+ Davenport T H, Ronanki R (2018) Artificial Intelligence for the Real World.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ January-February 2018, https://hbr.org/2018/01/artificial-intelligence-for-the-r
+eal-world.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Dixit1994"
+key "Dixit1994"
+literal "false"
+
+\end_inset
+
+ Dixit A K, Pindyck R S (1994) 
+\shape italic
+Investment Under Uncertainty
+\shape default
+ (Princeton University Press, Princeton, NJ).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Drucker1992"
+key "Drucker1992"
+literal "false"
+
+\end_inset
+
+ Drucker P F (1992) The New Society of Organizations.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ September-October 1992, https://hbr.org/1992/09/the-new-society-of-organizations.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Drucker1999"
+key "Drucker1999"
+literal "false"
+
+\end_inset
+
+ Drucker P F (1999) Knowledge-Worker Productivity: The Biggest Challenge.
+ 
+\shape italic
+California Management Review
+\shape default
+ 41(2):79-94.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Flyvbjerg2011"
+key "Flyvbjerg2011"
+literal "false"
+
+\end_inset
+
+ Flyvbjerg B, Budzier A (2011) Why Your IT Project May Be Riskier Than You
+ Think.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ September 2011, https://hbr.org/2011/09/why-your-it-project-may-be-riskier-than-
+you-think.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Foroohar2019"
+key "Foroohar2019"
+literal "false"
+
+\end_inset
+
+ Foroohar R (2019) America's new antitrust agenda.
+ 
+\shape italic
+Financial Times
+\shape default
+ February 3, 2019, https://www.ft.com/content/c27a517a-2631-11e9-8ce6-5db4543da632.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Gallagher1968"
+key "Gallagher1968"
+literal "false"
+
+\end_inset
+
+ Gallagher R G (1968) 
+\shape italic
+Information Theory and Reliable Communication
+\shape default
+ (John Wiley & Sons, New York).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Iansiti2017"
+key "Iansiti2017"
+literal "false"
+
+\end_inset
+
+ Iansiti M, Lakhani K R (2017) Managing Our Hub Economy.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ September-October 2017, https://hbr.org/2017/09/managing-our-hub-economy.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Kane2015"
+key "Kane2015"
+literal "true"
+
+\end_inset
+
+ Kane G C, Palmer D, Nguyen-Phillips A, Kiron D, Buckley N (2015) Strategy,
+ not Technology, Drives Digital Transformation.
+ 
+\shape italic
+MITSloan Management Review
+\shape default
+, March 8, 2016, https://sloanreview.mit.edu/projects/strategy-drives-digital-tran
+sformation/.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Keynes1921"
+key "Keynes1921"
+literal "false"
+
+\end_inset
+
+ Keynes J M (1921) 
+\shape italic
+A Treatise on Probability
+\shape default
+ (MacMillan and Co., Ltd., London).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Kochebnderfer2015"
+key "Kochebnderfer2015"
+literal "false"
+
+\end_inset
+
+ Kochenderfer M J (2015) 
+\shape italic
+Decision Making Under Uncertainty
+\shape default
+ (MIT Press, Boston, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Laffont1989"
+key "Laffont1989"
+literal "true"
+
+\end_inset
+
+ Laffont J J, Bonin J P, Bonin H (1989) 
+\shape italic
+The Economics of Uncertainty and Information
+\shape default
+, (Harvard Business School Press, Cambridge, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Leiblein2018"
+key "Leiblein2018"
+literal "true"
+
+\end_inset
+
+ Leiblein M J, Reuer J J, Zenger T (2018) What Makes a Decision Strategic?
+ 
+\shape italic
+Strategy Science
+\shape default
+ 3(4):558-573.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Lewis2004"
+key "Lewis2004"
+literal "false"
+
+\end_inset
+
+ Lewis M (2004) 
+\shape italic
+Moneyball: The Art of Winning an Unfair Game
+\shape default
+ (W.
+ W.
+ Norton & Co, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Narang2009"
+key "Narang2009"
+literal "false"
+
+\end_inset
+
+ Narang R K (2009) 
+\shape italic
+Inside the Black Box: The Simple Truth about Quantitive Trading
+\shape default
+ (John Wiley & Sons, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Nickerson2018"
+key "Nickerson2018"
+literal "false"
+
+\end_inset
+
+ Nickerson J, Argyres N (2018) Strategizing Before Strategic Decision Making.
+ 
+\shape italic
+Strategy Science
+\shape default
+ 3(4):592-605.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Pettigrew2016"
+key "Pettigrew2016"
+literal "false"
+
+\end_inset
+
+ Pettigrew R (2016) 
+\shape italic
+Accuracy and the Laws of Credence
+\shape default
+ (Oxford University Press, Oxford, UK).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Porter1985"
+key "Porter1985"
+literal "false"
+
+\end_inset
+
+ Porter M E, Millar V E (1985) How Information Gives You Competitive Advantage.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ July 1985, https://hbr.org/1985/07/how-information-gives-you-competitive-advanta
+ge.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Reeves2011"
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+ Reeves M, Deimler M (2011) Adaptability: The New Competitive Advantage.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ July-August 2011, https://hbr.org/2011/07/adaptability-the-new-competitive-advan
+tage.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Reeves2012"
+key "Reeves2012"
+literal "false"
+
+\end_inset
+
+ Reeves M, Deimler M (2012) 
+\shape italic
+Adaptive Advantage: Winning Strategies for Uncertain Times
+\shape default
+ (Boston Consulting Group, Boston, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Shafer1976"
+key "Shafer1976"
+literal "false"
+
+\end_inset
+
+ Shafer G (1976) 
+\shape italic
+A Mathematical Theory of Evidence
+\shape default
+ (Princeton University Press, Princeton, NJ).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Shannon1948"
+key "Shannon1948"
+literal "false"
+
+\end_inset
+
+ Shannon C E (1948) A Mathematical Theory of Communication.
+ 
+\shape italic
+Bell Systems Technical Journal
+\shape default
+ 27:379-423.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Shapiro1998"
+key "Shapiro1998"
+literal "false"
+
+\end_inset
+
+ Shapiro C, Varian H R (1998) 
+\shape italic
+Information Rules: A Strategic Guide to the Network Economy 
+\shape default
+ (Harvard Business Review Press, Boston, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Smets1994"
+key "Smets1994"
+literal "false"
+
+\end_inset
+
+P.
+ Smets and R.
+ Kennis (1994) The Transferable Belief Model.
+ 
+\emph on
+Artifical Intelligence
+\emph default
+ 66:191-234.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Teece2009"
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ Teece D (2009) 
+\shape italic
+Dynamic Capabilities
+\shape default
+ (Oxford University Press, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Wartzman2014"
+key "Wartzman2014"
+literal "false"
+
+\end_inset
+
+ Wartzman R (2014) What Peter Drucker Knew About 2020.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+: October 16, 2014, https://hbr.org/2014/10/what-peter-drucker-knew-about-2020.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Zhong2017"
+key "Zhong2017"
+literal "false"
+
+\end_inset
+
+ Zhong Y (2017) A Theory of Semantic Information, Presented at the IS4SI
+ 2017 Summit DIGITALIZATION FOR A SUSTAINABLE SOCIETY, Gothenburg, Sweden,
+ 12?16 June 2017.
+ 
+\shape italic
+MDPI Proceedings
+\shape default
+.
+\end_layout
+
+\end_body
+\end_document

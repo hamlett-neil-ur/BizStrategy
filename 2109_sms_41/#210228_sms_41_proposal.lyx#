@@ -1,0 +1,5052 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\usepackage{babel}
+\usepackage{hyperref}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{sectsty}
+%\usepackage{graphics}
+\usepackage{float}
+\usepackage{graphicx}
+
+\definecolor{JBlue}{HTML}{0051BA}
+\definecolor{Night}{HTML}{003459}
+\definecolor{Brick}{HTML}{971b2f}
+
+\sectionfont{\color{JBlue}}
+\subsectionfont{\color{Night}}
+\subsubsectionfont{\color{Brick}}
+
+\fancypagestyle{mypagestyle}{%
+  	\fancyhf{}% Clear header/footer
+	\fancyhead[LE, RO]{ Three modes of information-based differentiation  \\
+                        Proposed presentation}
+	\fancyhead[RE, LO]{SMS 41st Annual Conference \\ 
+                       Toronto, Sep 18-21, 2021}
+	\fancyfoot[C]{\thepage   }
+	  \renewcommand{\headrulewidth}{.4pt}% Header rule of .4pt
+}
+
+
+\fancypagestyle{specialfooter}{%
+  \fancyhf{}
+  \renewcommand\headrulewidth{0pt}
+	\fancyfoot[C]{\thepage  }
+}
+\pagestyle{mypagestyle}
+
+
+%\usepackage{blindtext}
+%\pagestyle{fancy}
+
+
+
+\title{\bfseries{\textcolor{JBlue}{ The three modes of information-based differentiation }}  }
+
+
+\author{SMS 41st Annual conference \\ Toronto, ON, September 18-21, 2021  }
+\date{\small February 28, 2021}
+\end_preamble
+\options twoside
+\use_default_options false
+\begin_modules
+multicol
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding iso8859-15
+\fontencoding T1
+\font_roman "default" "Avenir"
+\font_sans "default" "Avenir"
+\font_typewriter "default" "Athelas"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 4cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\headheight 4.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+sloppy
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+twocolumn
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{specialfooter}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Introduction
+\end_layout
+
+\begin_layout Standard
+That we operate in an 
+\begin_inset Quotes eld
+\end_inset
+
+Information-Age Economy
+\begin_inset Quotes eld
+\end_inset
+
+has been a cliché for a generation (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shapiro1998"
+literal "false"
+
+\end_inset
+
+).
+ Peter Drucker anticipated as early as the late 1950s the emergence of 
+\shape italic
+knowledge work
+\shape default
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wartzman2014"
+literal "false"
+
+\end_inset
+
+).
+ He subsequently foresaw that, 
+\begin_inset Quotes eld
+\end_inset
+
+knowledge 
+\begin_inset Formula $\langle$
+\end_inset
+
+becomes
+\begin_inset Formula $\rangle$
+\end_inset
+
+ a more-crucial economic resource than land, labor, or financial assets,
+\begin_inset Quotes erd
+\end_inset
+
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drucker1992"
+literal "false"
+
+\end_inset
+
+) leading to what he called a 
+\begin_inset Quotes eld
+\end_inset
+
+post-capitalist society
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Porter and Millar (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porter1985"
+literal "false"
+
+\end_inset
+
+) observed 
+\begin_inset Quotes eld
+\end_inset
+
+the information revolution sweeping through our economy
+\begin_inset Quotes erd
+\end_inset
+
+ in the mid-1980s.
+ They provided heuristic descriptions of informational impacts in terms
+ of existing value-chain frameworks for the analysis of strategy.
+ Although this early work did not anticipate early-21
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+st
+\end_layout
+
+\end_inset
+
+-century emergent operating models, likely strategic impacts were described.
+ These included improved operational efficiencies, more-tailored responsiveness
+ to market pulls, and adaptively shifting competitive scope.
+\end_layout
+
+\begin_layout Standard
+We consider here the broader strategic implications of information, beyond
+ just operational efficiency.
+ 
+\shape italic
+If
+\shape default
+ knowledge is indeed a 
+\begin_inset Quotes eld
+\end_inset
+
+more-crucial resource than land, labor, or financial assets
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+, 
+\shape italic
+then
+\shape default
+ its significance certainly must be in some regards strategic.
+\end_layout
+
+\begin_layout Standard
+Information is, in fact, the stuff that feeds decision-making — whether
+ it be strategic or mundanely operational (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kochebnderfer2015"
+literal "false"
+
+\end_inset
+
+).
+ Certainly, decision-making can be a strategic activity (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Leiblein2018"
+literal "false"
+
+\end_inset
+
+).
+ Recently, high degrees of concentration of information under the control
+ of a small number of large technology firms have led to commensurate concentrat
+ions of marketplace power (e.g., 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iansiti2017,Bond2018"
+literal "false"
+
+\end_inset
+
+).
+ The development of methods to attribute economic value to information are
+ correspondingly emerging topics of interest for both research and regulation
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Foroohar2019"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+We undertake here the ambitious task of formulating a generalized framework
+ for characterizing competitive differentiation based on information.
+ The discipline of Information Economics provides our foundation (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Laffont1989,Birchler1999,Brunnermeier2001"
+literal "false"
+
+\end_inset
+
+).
+ This field is exactly focused on informational-value attribution.
+\end_layout
+
+\begin_layout Standard
+Information Economics finds its most-common applications in financial markets.
+ It provides theories and operating concepts for markets and their equilibria.
+ Its principles also influence quantitative — or algorithmic — trading (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Narang2009"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+This study proceeds as follows.
+ We first introduce the relevant principles from Information Economics.
+ We make the case for their employment as bases for understanding information-ba
+sed competitive differentiation.
+ We treat these basic principles as axioms.
+\end_layout
+
+\begin_layout Standard
+From these axioms, three distinct modes of information-based differentiation
+ emerge.
+ We further explore each mode in turn.
+ We first revisit how our information-economic axioms appear for a given
+ mode of differentiation mode.
+ We then examine exemplary operating models conforming to that mode.
+ We finally consider the defensibility of advantages based on each mode.
+\end_layout
+
+\begin_layout Standard
+We conclude with an outline in broad strokes of a framework for thinking
+ about 
+\shape italic
+Return on Information
+\shape default
+.
+ The potential to deliberately frame an organization's 
+\shape italic
+Strategic Information Agenda
+\shape default
+ results.
+ This is consistent with the 
+\begin_inset Quotes eld
+\end_inset
+
+
+\shape italic
+strategizing before strategic decision-making
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ methodology by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nickerson2018"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+It occurs in the end that a strategic information agenda seeks to align
+ technology and other organizational competencies in order to realize a
+ defensible, differentiated position in the marketplace.
+ This is consistent with observations from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kane2015"
+literal "false"
+
+\end_inset
+
+ that, 
+\begin_inset Quotes eld
+\end_inset
+
+Strategy, not technology, drives digital transformation.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ Moreover, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "LaValle2011"
+literal "false"
+
+\end_inset
+
+ recommend, 
+\begin_inset Quotes eld
+\end_inset
+
+Start with the questions, not the data.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+The Information Economics of Competitive Differentiation
+\end_layout
+
+\begin_layout Standard
+Information Economics seeks to systematically attribute economic value to
+ information.
+ The field resides at the nexus of three other disciplines.
+ We synopsize them here and motivate their generalization.
+\end_layout
+
+\begin_layout Standard
+First, Information Theory characterizes uncertainty and information.
+ It spans two branches.
+ Its probability-and-statistics view came from the telecommunications industry
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shannon1948,Gallagher1968"
+literal "false"
+
+\end_inset
+
+).
+ Borrowing from the field of statistical thermodynamics (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ben-Naim2008"
+literal "false"
+
+\end_inset
+
+), it quantifies states of knowledge on a continuum from complete ignorance
+ to perfect certainty.
+ Information and uncertainty turn out to be different sides of the same
+ coin (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Briggs2016"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Semantic (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Zhong2017"
+literal "false"
+
+\end_inset
+
+) and syntactic (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chomsky2014"
+literal "false"
+
+\end_inset
+
+) branches of information theory combine into a complementary view.
+ These disciplines delve into the realm of human cognition.
+ Less mathematically-tractable, they nonetheless provide practical frameworks
+ for charactering the state of knowledge on which decisions are based.
+\end_layout
+
+\begin_layout Standard
+Game theory provides the second leg of the Information-Economics tripod.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Birchler1999"
+literal "false"
+
+\end_inset
+
+ specifically focus on 
+\shape italic
+the elementary game
+\shape default
+.
+ Its use serves to explain how market equilibria occur even in the presence
+ of information asymmetries (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Brunnermeier2001"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Finally, microeconomic principles bring in the utility perspective.
+ Marketplace transactions effect exchanges in utility between counter-parties.
+ Desirable transactions are win-win, resulting in net-positive changes to
+ counter-parties' collective utility.
+\end_layout
+
+\begin_layout Standard
+Information-Economics concepts are typically applied to explaining the operation
+s of transactional markets.
+ They explain how, for example, bid and ask prices during negotiation disclose
+ counter-parties' proprietary positions.
+\end_layout
+
+\begin_layout Standard
+Extending Information Economics principles beyond their transactional context
+ comprises our present ambition.
+ How do we propose to accomplish this? We shift our focus from information's
+ role as a transactional asset to that of a strategic asset along the lines
+ suggested by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drucker1992"
+literal "false"
+
+\end_inset
+
+.
+ We want moreover to look beyond the focus in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drucker1999"
+literal "false"
+
+\end_inset
+
+ on operational efficiency.
+ Our strategic-impact characterization follows from the utility derived
+ from acting on it.
+\end_layout
+
+\begin_layout Standard
+Information in a strategic context supports decision-making about marketplace
+ positioning, organizational design, and operational alignment 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Leiblein2018"
+literal "false"
+
+\end_inset
+
+.
+ The value of strategic information can therefore be quantified in terms
+ influencing corporate financials, such as balance-sheet assets and realized
+ revenue on income statements.
+\end_layout
+
+\begin_layout Standard
+The role advocated here for information's contribution to differentiation
+ is not altogether unprecedented.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ lists 
+\begin_inset Quotes eld
+\end_inset
+
+Sensing
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ as one of three 
+\begin_inset Quotes eld
+\end_inset
+
+Dynamic Capabilities
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ leading to sustainable enterprise performance (p.
+ 48).
+ Sensing spans systems and processes to 
+\begin_inset Quotes eld
+\end_inset
+
+learn, sense, filter, shape, and calibrate opportunities
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2012"
+literal "false"
+
+\end_inset
+
+ moreover identify 
+\begin_inset Quotes eld
+\end_inset
+
+Signal Advantage
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ as one of five components for 
+\shape italic
+Adaptive Advantage
+\shape default
+ (pp.
+ 87-171).
+ Their framework identifies maturity stages beginning with the tactical
+ and technical competencies of handling data, to shaping the informational
+ landscape.
+\end_layout
+
+\begin_layout Standard
+What then does Information Economics have to contribute to this established
+ body of work? We seek — through laying a more-formal undergirding derived
+ from economic theory — to provide opportunities for more-systematic characteriz
+ation and management of the complexities underlying competitive differentiation.
+\end_layout
+
+\begin_layout Standard
+Decision Analysis represents the most-immediate beneficiary to which a theory
+ of information-based differentiation might innovatively contribute.
+ Thereafter, operational and organizational modeling may also benefit.
+\end_layout
+
+\begin_layout Subsection*
+Information-Economics Concepts
+\end_layout
+
+\begin_layout Standard
+Birchler and Bütler present a view of information that is in a narrow sense
+ strategic (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Birchler1999"
+literal "false"
+
+\end_inset
+
+).
+ They distinguish between 
+\shape italic
+strategic
+\shape default
+ and 
+\shape italic
+non-strategic
+\shape default
+ players.
+ Given information, strategic players seek to maximize their utility.
+ Non-strategic players play blindly.
+ In financial economics, some employ this criterion to distinguish between
+ investors and gamblers.
+\end_layout
+
+\begin_layout Standard
+This leads to our 
+\shape italic
+essential axiom
+\shape default
+ from Information Economics: 
+\begin_inset Quotes eld
+\end_inset
+
+The value of information is the increase in utility an expects from receiving
+ the information 
+\shape italic
+and
+\shape default
+ from optimally reacting to it
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 32"
+key "Birchler1999"
+literal "false"
+
+\end_inset
+
+.
+ We then have two components to our valuation framework.
+\end_layout
+
+\begin_layout Subsubsection*
+The Informational Component of Information Valuation.
+\end_layout
+
+\begin_layout Standard
+We first have the information itself.
+ We must attribute a degree of confidence to the information.
+ We consider it in terms of the extent to which it supports — or not — an
+ assertion about a specific state of nature.
+ We are only certain of such states on the rarest of occasions.
+ Some degree of doubt nearly always burdens us.
+\end_layout
+
+\begin_layout Standard
+The 1998 motion picture 
+\shape italic
+The Red Violin
+\shape default
+ illustrates through an example resembling one used by 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "pp. 5-6"
+key "Shafer1976"
+literal "false"
+
+\end_inset
+
+.
+ The main character — an appraiser of rare musical instruments — is hired
+ to inspect a lot to be auctioned off by a world-renowned auction house.
+ The lot contains a specimen he suspects might be the lost masterpiece from
+ an Italian master craftsman.
+\end_layout
+
+\begin_layout Standard
+Our hero begins collecting evidence to establish the instrument's authenticity.
+ A lab technician measures acoustic spectra.
+ A world-famous virtuoso plays it, then coyly displays ambivalence.
+ Minuscule samples of paint and wood are sent for laboratory analysis and
+ dating.
+ instrument's interior is inspected — using an electro-optical device —
+ to discover what appears to be the master craftsman's signature.
+\end_layout
+
+\begin_layout Standard
+Each piece of evidence in isolation supports to varying degrees our appraiser's
+ belief in the instrument's authenticity.
+ When the main character assembles them all, he acquires a degree of confidence
+ on which to take a substantial risk.
+\end_layout
+
+\begin_layout Subsubsection*
+The Utility-Realization Component of Information Valuation.
+\end_layout
+
+\begin_layout Standard
+Acting on our information produces some payoff.
+ This arises from our decision to act — or not — given the degree of confidence
+ we have in our evidentiary corpus, to borrow a term from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Smets1994"
+literal "false"
+
+\end_inset
+
+.
+ This is driven by another fundamental principle, the 
+\shape italic
+von Neumann-Morgenstern axioms
+\shape default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "pp. 57-64"
+key "Kochebnderfer2015"
+literal "false"
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pettigrew2016"
+literal "false"
+
+\end_inset
+
+ describes 
+\shape italic
+Epistemic Utility Theory
+\shape default
+, a closely-related principle (pp.
+ 1-9).
+\end_layout
+
+\begin_layout Standard
+These guidelines basically tell us to optimize our 
+\shape italic
+expected
+\shape default
+ utility.
+ What the best outcome is, utility-wise, is based on our organization's
+ policies, priorities, appetite for risk, competencies, and other considerations.
+ It provides a coherent framework keeping straight the things that matter
+ to us.
+\end_layout
+
+\begin_layout Standard
+Now, in our utility-maximization principle, 
+\shape italic
+expected
+\shape default
+ becomes the operative word.
+ Our outcomes are very-rarely certain.
+ We have two sources of variability that may cause actual outcomes to differ
+ from expectations.
+ First, we have some residual uncertainty in our information.
+ We do not assert with complete certainty that our evidence unequivocally
+ supports exactly the state of nature our actions assume.
+ This ambiguity weights on what our exceptions are.
+\end_layout
+
+\begin_layout Standard
+Secondly, there may be variability in the affects from actions we take maximize
+ our utility.
+ We might be outbid in trying to acquire a piece of real estate.
+ Or our action might be to launch a capital investment in an IT project.
+ Such concerns can be notoriously fraught (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Flyvbjerg2011"
+literal "false"
+
+\end_inset
+
+).
+ Seizing — in terms of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ — may require us to exercise previously-undemonstrated organizational competenc
+ies.
+ These may in turn lead to hedging, which further complicates our utility
+ calculation.
+\end_layout
+
+\begin_layout Subsection*
+Modes of Information Differentiation
+\end_layout
+
+\begin_layout Standard
+The mathematical mechanisms of 
+\shape italic
+Dempster-Shafer Theory
+\shape default
+ and 
+\shape italic
+von Neumann-Morgenstern Axioms
+\shape default
+ plug very cleanly into each other to give us a formal framework for information
+-based differentiation.
+ From this we get a rigorous set of tools with which to formally parse our
+ present circumstances first described by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porter1985"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Furthermore, how we acquire and evaluate evidence touches on Teece's Sensing
+ dynamic capability and Reeve's Sensing advantage.
+ The efficacy of our actions in response to our evidence touches on Teece's
+ Seizing dynamic capability.
+ It also underlies the Organization and Systems advantages from Reeves.
+\end_layout
+
+\begin_layout Standard
+Integrating these together scientifically occurs through modeling.
+ Tools from Decision Analysis guide us in understanding the strength of
+ our evidence.
+ They in turn bridge into organizational and operational models to formulate
+ beliefs about the efficacy of intended actions.
+ Our Information-Economics framework — coupling Dempster-Shafer with von
+ Neumann-Morgenstern — provides the mechanisms for integration.
+ Treating these principles as axioms leads us to identify three distinct
+ modes of information-based differentiation.
+\end_layout
+
+\begin_layout Subsubsection*
+Getting Evidence that Others Lack.
+\end_layout
+
+\begin_layout Standard
+We refer to this as 
+\shape italic
+Differentiated Access
+\shape default
+.
+ We enjoy no information advantage from acting on the same body of evidence
+ as our competitors.
+ We may decide to act differently from them, based on policies, risk appetitive,
+ and other considerations.
+ But given the same evidentiary base, we should arrive at the same conclusions
+ as our competitors about the state of affairs.
+\end_layout
+
+\begin_layout Standard
+The disciplines of Business Analytics and insights-extraction-style Artificial
+ Intelligence (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Davenport2018"
+literal "false"
+
+\end_inset
+
+) offer one somewhat-technical illustration.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cover1991"
+literal "false"
+
+\end_inset
+
+ describe a very fundamental mathematical result telling us that we can
+ only do so well with a given data set (pp.
+ 32-33).
+ No amount of clever processing will reduce our residual uncertainty about
+ any question beyond limits of the data, given their essential characteristics.
+ John Maynard Keynes referred to this as 
+\begin_inset Quotes eld
+\end_inset
+
+irreducible uncertainty
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+after "p. 739"
+key "Keynes1921"
+literal "false"
+
+\end_inset
+
+).
+ Operating on the same information base as our competitors should not usually
+ give us any advantage.
+\end_layout
+
+\begin_layout Standard
+Things are different when information asymmetries arise.
+ Our 
+\shape italic
+Red Violin
+\shape default
+ story offers illustrations.
+ Our appraiser was not at first completely forthright with his auction-house
+ clients.
+ He did not apprise them of all of his evidence-gathering activities, or
+ even of his suspicion about the provenance of the violin.
+\end_layout
+
+\begin_layout Standard
+At one point in the story, the superstar virtuoso's reaction was the only
+ evidence that the auction-house managers had.
+ That information on the surface might tend to refute any suspicions that
+ the instrument was anything special.
+ Evidence attesting to its authenticity was however piling up on the desk
+ of our appraiser.
+ He temporarily enjoyed a considerable information advantage.
+\end_layout
+
+\begin_layout Standard
+When the auction-house managers however started double-checking on the appraiser
+'s expenses, they recognized the full extent of his evidentiary collection.
+ All the cards were then laid out on the table.
+ The information advantage vanished.
+\end_layout
+
+\begin_layout Subsubsection*
+Seeing Things in the Evidence that Others Overlook.
+\end_layout
+
+\begin_layout Standard
+We refer to this as 
+\shape italic
+Differentiated Insights
+\shape default
+.
+ Nuance distinguishes this from the previous mode.
+ All concerned parties have access to the same body of evidence.
+ For the technical reasons described above, any conventional data analytics
+ should produce the same results, assuming parity in analytical competencies.
+\end_layout
+
+\begin_layout Standard
+One concerned party however reads the evidence differently.
+ This might be due to freedom from biases or preconceptions.
+ Or, it might arise from an advantage in skills of imagination.
+ These lead one to interpret the evidence differently.
+\end_layout
+
+\begin_layout Standard
+In our 
+\shape italic
+Red Violin
+\shape default
+ illustration, suppose that the auction-house manager knew the superstar
+ virtuoso well.
+ Perhaps she had dealt with him previously, and knew that he didn't always
+ deal forthrightly.
+ She might recognize his purported ambivalence about the particular violin
+ as disingenuous.
+ Her refined musical ear might detect a certain quality to its sound.
+ These together might lead her to suspect some unusual and interesting about
+ the instrument's provenance.
+ Although this evidence was less-strong than that compiled by the appraiser,
+ it would not support a conclusion that the violin was 
+\begin_inset Quotes eld
+\end_inset
+
+nothing special.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Taking Actions Others Cannot.
+\end_layout
+
+\begin_layout Standard
+We call this 
+\shape italic
+Differentiated Ability to Act
+\shape default
+.
+ When no information asymmetries exist, the greatest expected utility accrues
+ to those with the strongest efficacy of means.
+ In the case of our 
+\shape italic
+Red Violin
+\shape default
+ illustration, once the instrument reached open auction recognized as an
+ authentic lost masterpiece, it was beyond the reach of our appraiser.
+ Only the well-financed could hope to offer winning bids.
+\end_layout
+
+\begin_layout Standard
+In terms of the Dynamic Capabilities from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+, Differentiated Ability to Act is about Seizing.
+ Once multiple parties have sensed an opportunity, the greatest utility
+ should accrue to whomever can decisively engage sufficient resources.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+ touches on this primarily through Organization and Systems advantages.
+\end_layout
+
+\begin_layout Section*
+Advantage from Differentiated Access
+\end_layout
+
+\begin_layout Standard
+We live in an era of data ubiquity.
+ That differentiated access might confer an advantage perhaps seems counterintui
+tive.
+ To reiterate, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porter1996"
+literal "false"
+
+\end_inset
+
+ cautions that, 
+\begin_inset Quotes eld
+\end_inset
+
+A company can outperform rivals only if it can establish a difference that
+ it can preserve.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ Publicly available information, e.g.
+ on the Internet, usually does not obviously confer this.
+\end_layout
+
+\begin_layout Standard
+Data-access differentiation is actually rather difficult to achieve.
+ The Efficient Market Hypothesis from financial economics 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "Sec. 7.C.c"
+key "Birchler1999"
+literal "false"
+
+\end_inset
+
+ asserts that information advantages don't generally exist.
+ Having data — or their derivative, information — that competitors lack
+ depends on operating models that produce them.
+ Apart from such a model, differentiated data-access — whether for individuals
+ or organizations — is quite uncommon (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chamoroo2018"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+In fact, differentiated information accrues to organizations deliberately
+ designed to produce it.
+ To extrapolate from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drucker1992"
+literal "false"
+
+\end_inset
+
+, when information becomes the decisive asset, staking out differentiated
+ positions in the marketplace must consider its role.
+ Information must be included within the portfolio of assets by which strategy
+ is realized.
+\end_layout
+
+\begin_layout Standard
+To the extent that differentiating information-focused competencies depend
+ on technology, the latter must also be addressed as a facet of strategy
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kane2015"
+literal "false"
+
+\end_inset
+
+).
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ross2006"
+literal "false"
+
+\end_inset
+
+ explicitly describe frameworks for translating operating models into technology
+ 
+\begin_inset Quotes eld
+\end_inset
+
+foundations for execution
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Exemplary Positions Based on Differentiated Access
+\end_layout
+
+\begin_layout Standard
+We now consider two operating models providing differentiated information
+ access.
+ Both examples happen to be technology-based.
+ This does not imply however that all such instances are so.
+ Many of the most-obvious contemporary examples do however fit this pattern.
+\end_layout
+
+\begin_layout Standard
+Platform business models emerged as a powerful force during the first two
+ decades of the 21
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+st
+\end_layout
+
+\end_inset
+
+ Century (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iansiti2017"
+literal "false"
+
+\end_inset
+
+).
+ They have arguably changed the rules of strategy for some sectors of the
+ economy.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "VanAlstyne2016"
+literal "false"
+
+\end_inset
+
+ asserts that network effects of platforms assume an importance analogous
+ to those from scale economies in traditional pipeline business models.
+\end_layout
+
+\begin_layout Standard
+Platforms excel in one particular context.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Evans2016"
+literal "false"
+
+\end_inset
+
+ specifically observes that they have captured the 
+\begin_inset Quotes eld
+\end_inset
+
+broker
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ role of connecting counter-parties in transactions.
+ They supplant predecessor media such as newspaper want ads and telephone-book
+ yellow pages, to illustrate by retail commerce.
+\end_layout
+
+\begin_layout Standard
+How do platforms produce proprietary information? They act as mediators
+ in transactions.
+ Counter-parties — individually and collectively — volunteer information
+ in exchange for mediation services.
+ Much of this remains closely-held.
+ The volume of information increases with participant population.
+ The volume of counter-party-connection information in fact increases exponentia
+lly.
+\end_layout
+
+\begin_layout Standard
+Amazon exemplifies this affect most-conspicuously.
+ The breadth of its perspective of the retail industry is difficult to comprehen
+d.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bond2018"
+literal "false"
+
+\end_inset
+
+ describes how the company has begun exploiting its position to assimilate
+ some of the more-valuable value-chain links previously served by suppliers.
+ Deep insights into both sides of retail transactions confer an advantageous
+ position.
+ Wen and Zhu 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wen2019"
+literal "false"
+
+\end_inset
+
+ describe how platform operators' incursions into complementors' market
+ scopes lead to pronounced strategic conundrums for the latter.
+\end_layout
+
+\begin_layout Standard
+The playbook for successful platform launches contains rules not counterintuitiv
+e to business strategists familiar with other operating models.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bonchek2013a"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Edelman2015"
+literal "false"
+
+\end_inset
+
+, and 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Zhu2016"
+literal "false"
+
+\end_inset
+
+ describe some of them.
+ The platform market model begins with identifying a defensible position.
+ Proprietary information about participants may not be immediately available.
+ A plan to draw in initial users using only publicly-available information
+ is often required.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bungay2019"
+literal "false"
+
+\end_inset
+
+ explicitly addresses a strategic approach commonly followed by platform
+ operators.
+ They price competitively — even providing their offerings below-cost, even
+ free — in order to capture market share.
+ Market share becomes the overriding imperative given network affects, and
+ the informational advantage they provide.
+ Bungay's pipeline analogy — asserting that efficiency accrues through learning-
+curve-like affects — might actually be pessimistic in the case of platforms.
+\end_layout
+
+\begin_layout Subsubsection*
+Connected-Systems Operating Models.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Connected-Systems
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ or 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Internet-of-Things
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ (IoT) operating models produce information through extensive instrumentation
+ of operations.
+ Their affects accrue largely to traditional pipeline business models.
+ Well-conceived instrumentation of products delivered to customers and internal
+ systems by which they are produced can yield windfalls of otherwise-unavailable
+ information.
+\end_layout
+
+\begin_layout Standard
+Porter and Heppelmann 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porter2014"
+literal "false"
+
+\end_inset
+
+ describe the external-marketplace facet of IoT.
+ Instrumenting products represents the most-common example.
+ This insinuates platform-like advantages into pipeline operating models.
+ Patterns of customers' product usages are measured and recorded by the
+ manufacturer.
+ These mechanisms enable new modes Teece's Sensing dynamic capability and
+ the Signal Advantage of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Similarly, Porter and Heppelmann 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porter2015"
+literal "false"
+
+\end_inset
+
+ also describe the internal-operations side of connected systems.
+ Instrumentation of internal systems, processes, and procedures represents
+ the focus.
+ Organizations' dark corners are illuminated.
+ Opportunities thereby arise to improve operational effectiveness and adaptabili
+ty.
+ These solutions support the Organization and Systems Advantages described
+ by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Fleish2010"
+literal "false"
+
+\end_inset
+
+ characterizes IoT as 
+\begin_inset Quotes eld
+\end_inset
+
+MRI for business administration.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bonchek2013b"
+literal "false"
+
+\end_inset
+
+ extend the military concept of 
+\begin_inset Quotes eld
+\end_inset
+
+fog of war
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ to business.
+ They assert a causal chain from interconnecting to information sharing
+ to shared situational awareness to mission effectiveness.
+ These represent the principal internal benefits of connected systems.
+\end_layout
+
+\begin_layout Subsection*
+Defensibility of Positions Based on Differentiated Access
+\end_layout
+
+\begin_layout Standard
+We previously offered a platform business model as an example of a scenario
+ for data-access differentiation.
+ Platforms — intermediaries that connect two or more distinct parties and
+ 
+\shape italic
+orchestrate
+\shape default
+ their transactions (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Zhu2016"
+literal "false"
+
+\end_inset
+
+) inherently generate information about their users.
+ Broadly-adopted platforms tend to enjoy formidable barriers to replication
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Iansiti2017"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+More generally, market leaders in highly-concentrated industries tend to
+ enjoy operationally-generated information advantages.
+ Walmart provides an obvious example (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hyde2018"
+literal "false"
+
+\end_inset
+
+).
+ The bargaining power derived by concentration and scale in the distribution
+ chain has drawn attention for decades (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Fein1999"
+literal "false"
+
+\end_inset
+
+).
+ This advantage is compounded by information asymmetries.
+ Information-sharing between key industry players potentially heightens
+ replication barriers (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Dance2018"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+So, under what circumstances might these data-access-based advantages become
+ vulnerable? Stickiness becomes key defensive tactic for the platform operator.
+ Forrester consultants 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Manning2012"
+literal "false"
+
+\end_inset
+
+ argue in a more-general context that, 
+\begin_inset Quotes eld
+\end_inset
+
+Customer experience is the single greatest predictor of whether customers
+ will return—or defect to a competitor.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ A sustainable platform then makes switching undesirable or inconvenient.
+\end_layout
+
+\begin_layout Standard
+Market-share leaders in highly-concentrated industry segments tend only
+ to be unseated by market restructuring.
+ Bryce and Dyer 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bryce2007"
+literal "false"
+
+\end_inset
+
+ describe outsider strategies have been applied to 
+\begin_inset Quotes eld
+\end_inset
+
+crack well-guarded markets
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+.
+ These are often about insurgency through clever market positioning, or
+ 
+\begin_inset Quotes eld
+\end_inset
+
+disruptive innovation
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Christensen2015"
+literal "false"
+
+\end_inset
+
+).
+ The latter sometimes arises from discerning and exploiting opportunities
+ to which incumbents are blind.
+ But industry-structure shifts do not occur frequently.
+\end_layout
+
+\begin_layout Standard
+Connected-systems business models principally benefit industry incumbents.
+ Would-be new entrants can potentially offer ancillary services to help
+ pipeline-model incumbents realize connected-systems solutions.
+ Replicating existing assets of a pipeline-business however represents a
+ formidable barrier.
+\end_layout
+
+\begin_layout Standard
+Difficulties in replication of technology competencies needed for both platform
+ and connected-systems operating models may lead value-chain restructuring
+ in some industries.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "McLain2018"
+literal "false"
+
+\end_inset
+
+ describes a potentially-foreshadowing automotive-manufacturing illustration.
+\end_layout
+
+\begin_layout Standard
+Specifically, the costs of key technologies underpinning emerging value
+ propositions in that industry exceed what some manufacturers can organically
+ develop.
+ Examples include artificial intelligence needed for self-driving vehicles
+ and electric drive trains for zero- and low-emission automobiles (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "McLain2018"
+literal "false"
+
+\end_inset
+
+).
+ If these competencies become too hard to replicate, the attractiveness
+ of value-chain segments controlled by incumbents may diminish.
+\end_layout
+
+\begin_layout Section*
+Advantage from Differentiated Insights
+\end_layout
+
+\begin_layout Standard
+Differentiated Insights involve imaginative exercise of sensing competencies
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+) to see things that are hidden in plain-sight.
+ Viewing the landscape from unorthodox perspectives often produces them.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lewis2004"
+literal "false"
+
+\end_inset
+
+ suggests, 
+\begin_inset Quotes eld
+\end_inset
+
+Heresy is good: Heresy means opportunity.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We observed above that generally-available data provide few opportunities
+ for information asymmetries.
+ This is after all the basis of the Efficient-Market Hypothesis.
+ Occasionally however, windows of opportunity do in fact open.
+\end_layout
+
+\begin_layout Standard
+Differentiated insights may or may not come from technology.
+ In the case of insights-extraction-style Artificial Intelligence (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Davenport2018"
+literal "false"
+
+\end_inset
+
+), we previously noted limitations due to Keynes' 
+\begin_inset Quotes eld
+\end_inset
+
+irreducible-uncertainty
+\begin_inset Quotes erd
+\end_inset
+
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Keynes1921"
+literal "false"
+
+\end_inset
+
+).
+ This potentially bounds the benefits our sensing competency when applying
+ analytics to publicly-available data.
+ Is this ever beatable?
+\end_layout
+
+\begin_layout Standard
+It turns out that we can 
+\begin_inset Quotes eld
+\end_inset
+
+beat
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ Keynes limit, in a way.
+ We do this by considering our evidence from unusual, insightful perspectives.
+ This might mean not taking them at face value.
+ This perspective might involve adding to data contextual information they
+ do not explicitly contain themselves.
+ It might also result from imagination or vision placing one organization
+ ahead of the rest of the industry.
+\end_layout
+
+\begin_layout Standard
+Described by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Christensen2004"
+literal "false"
+
+\end_inset
+
+, Disruptive Innovation exemplifies a non-technology form of differentiated
+ insights.
+ Would-be disruptors detect chinks in the armor of established incumbents.
+ They consequently become capable of siphoning off the some latter's market
+ share in specific segments.
+ Christensen, 
+\emph on
+et al
+\emph default
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Christensen2015"
+literal "false"
+
+\end_inset
+
+ assert a narrow definition of disruption.
+ We can however extend our consideration the more-general span of 
+\begin_inset Quotes eld
+\end_inset
+
+substitutes
+\begin_inset Quotes erd
+\end_inset
+
+ from the 
+\begin_inset Quotes eld
+\end_inset
+
+Five Forces
+\begin_inset Quotes erd
+\end_inset
+
+ framework by 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "pp. 34-37"
+key "Porter1990"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Exemplary Positions Based on Differentiated Insights
+\end_layout
+
+\begin_layout Standard
+We consider here two illustrations of differentiated-insights advantage.
+ Our first example is technology-focused.
+ Specifically it shows differentiation using business-analytics and decision
+ analysis.
+ These lie in the vein of insights-extraction-style Artificial Intelligence
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Davenport2018"
+literal "false"
+
+\end_inset
+
+).
+ This principally illustrates Teece's Sensing dynamic capability.
+\end_layout
+
+\begin_layout Standard
+We alternatively consider an operating-model case based on disruptive innovation
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Christensen2004,Christensen2015"
+literal "false"
+
+\end_inset
+
+).
+ This operational illustration also incorporates Teece's Seizing dynamic
+ capability.
+\end_layout
+
+\begin_layout Subsubsection*
+Technology-Derived Differentiated Insights.
+\end_layout
+
+\begin_layout Standard
+Michael Lewis' novel 
+\shape italic
+Moneyball
+\shape default
+ tells the story of the U.S.
+ Major League Baseball team Oakland, CA Athletics (As) (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lewis2004"
+literal "false"
+
+\end_inset
+
+).
+ The Oakland As successfully competed against teams with much larger player-sala
+ry budgets.
+ They accomplished this through a player-contribution valuation model that
+ was considerably more-insightful than competitors'.
+\end_layout
+
+\begin_layout Standard
+To illustrate, the 2002 As paid an average salary of slightly less then
+ $1.5 million.
+ This was substantively less than the industry average of $2.3 million.
+ Their novel player-valuation criteria afforded flexibility to consider
+ opportunities that competitors overlooked.
+\end_layout
+
+\begin_layout Standard
+A novel set of utility criteria was part of the As' approach.
+ Winning games was their principal objective.
+ This was part of a tradeoff underlying decisions to allow superstar players
+ like Jason Giambi go to other teams.
+ Such stars produce higher revenues through ticket sales and merchandising.
+ Their individual contributions to total games won could however be distributed
+ across multiple other judiciously-selected players.
+\end_layout
+
+\begin_layout Standard
+The As' utility metric is illuminating.
+ For the 2002 season they won the second-most games in all of major-league
+ baseball.
+ Their cost per win in terms of player salaries were about $525,000.
+ This was one and three-quarters of a standard deviation below the major-league
+ average of around $1 million per regular-season win.
+ Moreover, their revenue-to-salary ratio was about 1.2 standard deviations
+ above the major-league average of 1.54.
+ They were third-best of all major-league clubs by the latter metric.
+ This differentiated-insights strategy apparently worked well both in terms
+ of on-field and business measures of performance.
+\end_layout
+
+\begin_layout Standard
+These statistics allow us to cursorily illustrate attribution of value to
+ player-contribution information for the Oakland As.
+ They finished the regular season four games ahead of division runner-up
+ Anaheim Angels, which paid $747,000 in player salary per win.
+ The Angeles incidentally were the third-most efficient major-league team
+ in terms of salary-per-win.
+ They ranked behind the As and the Minnesota Twins, who eliminated the former
+ in the divisional round of the playoffs.
+\end_layout
+
+\begin_layout Standard
+The information to identify players needed to achieve the As four-win advantage
+ over the Angels could therefore be valued at $2.1 million.
+ Given these efficiencies, the Angels might have prevailed at a cost of
+ slightly less than $3 million in additional salary expenditures.
+ These summaries assume the organizations' costs to acquire players are
+ approximately equal and obviously ignore confidence intervals and other
+ statistical measures of variation.
+ But we do get a sense of the utility-focused reasoning employed in information
+ economics.
+\end_layout
+
+\begin_layout Standard
+Beyond or professional-sports illustration, anecdotal evidence shows similar
+ patterns in the financial sector.
+ Wiggelsworth and Fortado 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wigglesworth2018a"
+literal "false"
+
+\end_inset
+
+ describe a more-recent attempt to apply a differentiated-insight approach
+ to investing.
+ Parity may also be occurring in algorithmic trading (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wigglesworth2018b"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection*
+Differentiated Insights Leading to Disruptive Operating Models.
+\end_layout
+
+\begin_layout Standard
+Christensen, 
+\emph on
+et al
+\emph default
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Christensen2004"
+literal "false"
+
+\end_inset
+
+ offer so-called 
+\begin_inset Quotes eld
+\end_inset
+
+discount
+\begin_inset Quotes erd
+\end_inset
+
+ airline carriers as an example of disruptive innovation (pp.129 - 153).
+ Exemplified most-frequently by Southwest Airlines, these businesses conform
+ to a narrow definition 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Christensen2015"
+literal "false"
+
+\end_inset
+
+  of disruptive innovation.
+ By this characterization, a disruptor offers to a judiciously-selected
+ market segment a simplified substitute for an incumbent attempting to serve
+ multiple segments.
+ The former typically differentiates based on cost.
+\end_layout
+
+\begin_layout Standard
+Southwest Airlines in particular designed a very lean operation.
+ They pursued operational efficiency through elimination of variability
+ in operating-cost drivers.
+ They also focused on single-segment routes so that they could maximize
+ aircraft utilization.
+\end_layout
+
+\begin_layout Standard
+This case principally illustrates application of the sensing competencies
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009,Reeves2011"
+literal "false"
+
+\end_inset
+
+).
+ Southwest judiciously selected routes to use as entry points.
+ Attractive candidates were likely to yield high aircraft utilization combined
+ with gates at airports that were initially underutilized.
+ For example, they selected Baltimore-Washington International Airport (BWI)
+ as their entry point into the Washington, DC market.
+ After establishing itself at BWI, Southwest moved into other airports in
+ the heart of the DC metro area.
+\end_layout
+
+\begin_layout Subsection*
+Defensibility of Positions Based on Differentiated Insights
+\end_layout
+
+\begin_layout Standard
+But just how defensible is this sort of differentiation? Results vary depending
+ upon whether or not competitive advantage accrues from a technology-based
+ solution.
+ Such solutions tend to offer relatively low barriers to imitation.
+ Monopolization of the best quantitative talent by any one organization
+ is unlikely (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Willhite2014"
+literal "false"
+
+\end_inset
+
+).
+ A popular quip states, 
+\begin_inset Quotes eld
+\end_inset
+
+The smartest people in the world don't all work for us.
+ Most of them work for somebody else.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Moneyball
+\shape default
+ bears this out.
+ The Oakland As for awhile used statistical-analysis services by an outside
+ firm, AVM systems.
+ They subsequently migrated this capability in-house.
+ Mathematical knowledge on which analytics are based is fungible.
+ So are individuals with deep expertise in its use (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Willhite2014"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Moreover, outsourcing of strategically key functions is ill-advised (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sameer2004,Hamlett2007"
+literal "false"
+
+\end_inset
+
+).
+ The As were competing on analytics.
+ They needed this capability in-house.
+\end_layout
+
+\begin_layout Standard
+And what about the As' sophisticated player-valuation model? Recent studies
+ by sports economists reveal these valuation methods have gone mainstream.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Brown2015"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Congdon-Hohman2017"
+literal "false"
+
+\end_inset
+
+ report evidence of their widespread adoption.
+ Some of the so-called 
+\begin_inset Quotes eld
+\end_inset
+
+power statistics
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ — central to the As' player valuations — are even reported on scoreboards
+ at major-league ballparks! This arbitrage opportunity is history.
+\end_layout
+
+\begin_layout Standard
+Southwest Airlines' position as a disruptive innovator proves more-durable.
+ The carrier continues to deliver above-industry results both in terms of
+ passenger satisfaction and financial performance.
+ It has also expanded into some hub airports charging higher gate fees.
+\end_layout
+
+\begin_layout Standard
+This durability arises from its operating model.
+ Southwest's operational and organizational designs prove difficult for
+ 
+\begin_inset Quotes eld
+\end_inset
+
+traditional
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ carriers to replicate.
+ The latter are designed to simultaneously serve multiple market segments.
+ Pressure from low-cost carriers has forced them to make services more-austere
+ for passengers purchasing tickets in lower fare classes.
+ This however occurs at the cost of diminished passenger satisfaction in
+ the corresponding market segments.
+ Southwest Airlines however maintains predictable — although not luxurious
+ — levels of service.
+ It thereby avoids customer-dissatisfaction issues.
+\end_layout
+
+\begin_layout Section*
+Advantage from Differentiated Ability to Act
+\end_layout
+
+\begin_layout Standard
+Merely acquiring information is insufficient.
+ The differentiating modes described above emphasized sensing competencies
+ of 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+.
+ Action upon the resulting knowledge must occur to realize value from it.
+ This is the essence of Teece's Seizing Dynamic Capability.
+ In information-economics terms, we speak here of utility realized through
+ acting in knowledge.
+\end_layout
+
+\begin_layout Standard
+The ability to act represents a central consideration underlying organizational
+ design (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Denison1995,Groysberg2018"
+literal "false"
+
+\end_inset
+
+).
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Suarez2005"
+literal "false"
+
+\end_inset
+
+ studied different industry-volatility scenarios.
+ Industry change rates can be characterized in terms of market-evolution
+ and technology-evolution dimensions.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Moore2004"
+literal "false"
+
+\end_inset
+
+ associated rates of change with distinct stages in market lifecycles.
+\end_layout
+
+\begin_layout Standard
+Different types of information and assume greater degrees of importance
+ depending on industry dynamics.
+ When industries are in 
+\begin_inset Quotes eld
+\end_inset
+
+Calm Waters
+\begin_inset Quotes erd
+\end_inset
+
+ — in terms of the framework by 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Suarez2005"
+literal "false"
+
+\end_inset
+
+ — information about operational consistency and conformity are of highest
+ importance.
+ The degrees organization and systems adaptivities from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+ might be intentionally low.
+\end_layout
+
+\begin_layout Standard
+To the extent that organizational agility and dynamism depend on technology,
+ the systems themselves must mirror those attributes.
+ Ross, 
+\emph on
+et al
+\emph default
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ross2006"
+literal "false"
+
+\end_inset
+
+ warn against circumstances in which the technology assets 
+\begin_inset Quotes eld
+\end_inset
+
+fossilize
+\begin_inset Quotes erd
+\end_inset
+
+ their organizations.
+\end_layout
+
+\begin_layout Subsection*
+Exemplary Positions Based on Differentiated Ability to Act
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lynch2017"
+literal "false"
+
+\end_inset
+
+ presents a case study illustrating an auto manufacturer's ability to act
+ in response to a supply-chain disruption.
+ This illustrated judicious use of information without explicit reference
+ to technology systems by which it is managed and exploited.
+ Adaptivity does not necessarily depend on technology.
+\end_layout
+
+\begin_layout Standard
+On March 11, 2011, a Richter 9.1 earthquake struck off the Northwest coast
+ of Honshu, Japan.
+ The Fukushima Daiichi nuclear disaster was the most-visible consequence.
+ Other less-dire impacts to global business also occurred, however.
+\end_layout
+
+\begin_layout Standard
+A fire broke out at a paint-pigment manufacturing facility operated by Merck
+ KGaA in Onahama.
+ The Merck plant was the world's sole source for Xirallic, used to make
+ car coatings sparkle.
+ This introduced a bottleneck impacting a large swath of the auto-manufacturing
+ industry.
+\end_layout
+
+\begin_layout Standard
+Of the major manufacturers, Hyundai alone sought and introduced substitutes
+ into its operations (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Seetharaman2011"
+literal "false"
+
+\end_inset
+
+).
+ Its competitors sustained production backlogs.
+ Hyundai incurred costs to reconfigure its assembly lines.
+ This adaptivity however allowed it to capture market share at the expense
+ of less-adaptive competitors.
+\end_layout
+
+\begin_layout Subsection*
+Defensibility of Positions Based on Differentiated Ability to Act
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Harvard Business Review
+\shape default
+ authors ask questions such as 
+\begin_inset Quotes eld
+\end_inset
+
+Is your company actually set up to support your strategy?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Garton2017"
+literal "false"
+
+\end_inset
+
+) Or, 
+\begin_inset Quotes eld
+\end_inset
+
+Is anyone in your company paying attention to strategic alignment?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+(
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Trevor2018"
+literal "false"
+
+\end_inset
+
+) We speak here of information-based strategic advantage.
+ The asking of these questions is telling.
+\end_layout
+
+\begin_layout Standard
+These questions insinuate the core issues surrounding the 
+\begin_inset Quotes eld
+\end_inset
+
+Seizing
+\begin_inset Quotes erd
+\end_inset
+
+ capability from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+.
+ We distinguish between opportunities in our existing marketing 
+\begin_inset Quotes eld
+\end_inset
+
+funnel
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ within our present market scope.
+ These exemplify 
+\begin_inset Quotes eld
+\end_inset
+
+short-term
+\begin_inset Quotes erd
+\end_inset
+
+ actions in financial terms.
+\end_layout
+
+\begin_layout Standard
+Our interest in 
+\begin_inset Quotes eld
+\end_inset
+
+Dynamic
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Adaptive
+\begin_inset Quotes erd
+\end_inset
+
+ emphasize 
+\begin_inset Quotes eld
+\end_inset
+
+longer-term
+\begin_inset Quotes erd
+\end_inset
+
+ horizons.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ emphasizes 
+\begin_inset Quotes eld
+\end_inset
+
+the ability to recombine and reconfigure assets and organizational structures
+\begin_inset Quotes erd
+\end_inset
+
+ (p.
+ 33).
+ Wessel and Christensen 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wessel2012"
+literal "false"
+
+\end_inset
+
+ describe an even more-daunting scenario: 
+\begin_inset Quotes eld
+\end_inset
+
+Cannibalizing existing revenue streams.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ Such actions can be either offensive or defensive.
+\end_layout
+
+\begin_layout Standard
+The ability to act then centers on adaptivity in systems and organizations
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+.
+ The former must not impede reconfiguration due to 
+\begin_inset Quotes eld
+\end_inset
+
+fossilization
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ross2006"
+literal "false"
+
+\end_inset
+
+.
+ Porter and Heppelmann 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Porter2014"
+literal "false"
+
+\end_inset
+
+ emphasize 
+\begin_inset Quotes eld
+\end_inset
+
+agile development
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+systems engineering
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ as essential technology-management skills.
+ Judiciously applied, these competencies lead to 
+\begin_inset Quotes eld
+\end_inset
+
+Systems Agility.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Organizational Adaptivity
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ is at least as difficult.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Moore2004"
+literal "false"
+
+\end_inset
+
+ tells us that certain market-lifecycle stages lead us towards operational
+ models emphasizing stability and consistency.
+ Late-stage industries increasingly experience contracting margins.
+ Operational-Variability reduction — producing operating efficiencies —
+ tends to run counter to adaptivity.
+\end_layout
+
+\begin_layout Standard
+Groysberg, 
+\emph on
+et al
+\emph default
+, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Groysberg2018"
+literal "false"
+
+\end_inset
+
+ moreover describe eight cultural styles.
+ Some of these apparently promote adaptivity and others seem to impede it.
+ We expect cultures with strong 
+\begin_inset Quotes eld
+\end_inset
+
+Learning
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ components to be more-adaptive.
+\end_layout
+
+\begin_layout Standard
+Denrell and March 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Denrell2001"
+literal "false"
+
+\end_inset
+
+ describe 
+\begin_inset Quotes eld
+\end_inset
+
+adaptation as information restriction.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ So, risk-aversion can lead to learning the wrong things from experience.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pisano2019"
+literal "false"
+
+\end_inset
+
+ in contrast describes how 
+\begin_inset Quotes eld
+\end_inset
+
+innovative
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ organizations learn the wrong things due to indiscriminate intake of 
+\begin_inset Quotes eld
+\end_inset
+
+knowledge.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This list of characteristics possessed by 
+\begin_inset Quotes eld
+\end_inset
+
+Dynamic
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Adaptive
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ organizations is very formidable to replicate.
+ Only a very well-designed organization is likely to possess most of these
+ attributes.
+ A differentiated ability to act therefore appears to be the most-defensible
+ mode of information-based competitive advantage.
+\end_layout
+
+\begin_layout Section*
+Conclusions
+\end_layout
+
+\begin_layout Standard
+In an information-driven economy, information becomes a decisive asset.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Drucker1992"
+literal "false"
+
+\end_inset
+
+ foresaw that 
+\begin_inset Quotes eld
+\end_inset
+
+knowledge 
+\begin_inset Formula $\langle$
+\end_inset
+
+becomes
+\begin_inset Formula $\rangle$
+\end_inset
+
+ a more-crucial economic resource than land, labor, or financial assets....
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ Subsequent business-strategy frameworks — most-notably 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+ — consider this through competency views of competitive advantage.
+ Each refers to a 
+\shape italic
+Sensing
+\shape default
+ capability.
+ These address how organizations acquire and interpret information to formulate
+ pictures of their competitive landscapes.
+\end_layout
+
+\begin_layout Standard
+We describe here an information-economics formalism undergirding to these
+ competency frameworks for differentiation.
+ We combine principles from 
+\shape italic
+Theory of Evidence
+\shape default
+ with 
+\shape italic
+Utility Maximization
+\shape default
+.
+ They together provide a formal structure for thinking about information-based
+ differentiation.
+\end_layout
+
+\begin_layout Standard
+Treating these concepts as axioms leads to three distinct modes of deriving
+ advantage from informational asymmetries.
+ We can acquire information that others do not have.
+ This results primarily through business models deliberately designed to
+ produce it.
+\end_layout
+
+\begin_layout Standard
+We can alternatively achieve information asymmetries through differentiated
+ insights.
+ This amounts to seeing things — hidden in plain sight — within the evidence
+ that others may have missed.
+ This might occur due to freedom from biases encumbering others, or from
+ a sharper sense of imagination.
+ Recognizing opportunities for disruption fits in this category.
+\end_layout
+
+\begin_layout Standard
+Finally, we might exercise a greater ability to take action given a recognized
+ state affairs supported by the commonly available evidence.
+ These advantages accrue due to aspects of organizational factors.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ particularly emphasizes these in his 
+\begin_inset Quotes eld
+\end_inset
+
+Seizing
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+ dynamic capability.
+ In the absence of information asymmetries, the most-capable organization
+ should realize the greatest utility from an opportunity.
+ This mode of information-based differentiation turns out to be the hardest
+ to replicate.
+\end_layout
+
+\begin_layout Standard
+The formalism of this information-economics approach to differentiation
+ offers the potential to address questions of competitiveness more-systematicall
+y than perhaps otherwise.
+ It provides a mathematical structure to unify different management-science
+ disciplines.
+ The most-immediate benefits accrue to Decision Analysis.
+ Subsequently, closer integration with organizational and operational modeling
+ appear practical.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+onecolumn
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Amram1999"
+key "Amram1999"
+literal "false"
+
+\end_inset
+
+ Amram M, Kulatilaka N (1999) 
+\shape italic
+Real Options: Managing Strategic Investment in an Uncertain World
+\shape default
+ (Harvard Business School Press, Boston, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ben-Naim2008"
+key "Ben-Naim2008"
+literal "false"
+
+\end_inset
+
+ Ben-Naim A (2008) 
+\shape italic
+Statistical Thermodynamics Based on Information: A Farewell to Entropy
+\shape default
+ (World Scientific, Hackensack, NJ).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Bessen2018"
+key "Bessen2018"
+literal "false"
+
+\end_inset
+
+ Bessen J, Frick W (2018) 
+\begin_inset Quotes eld
+\end_inset
+
+How Software Is Helping Big Companies Dominate.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ November 19, 2018, https://hbr.org/2018/11/how-software-is-helping-big-companies
+-dominate.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Birchler1999"
+key "Birchler1999"
+literal "true"
+
+\end_inset
+
+ Birchler U, Bütler M (1999) 
+\shape italic
+Information Economics
+\shape default
+ (Routledge, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Bonchek2013a"
+key "Bonchek2013a"
+literal "false"
+
+\end_inset
+
+ Bonchek M, Choudary S P (2013) 
+\begin_inset Quotes eld
+\end_inset
+
+Three Elements of a Successful Platform Strategy.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ January 31, 2013, https://hbr.org/2013/01/three-elements-of-a-successful-platfor
+m.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Bonchek2013b"
+key "Bonchek2013b"
+literal "false"
+
+\end_inset
+
+ Bonchek M, Fussel C (2013) Use Doctrine to Pierce the Fog of Business.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ February 20, 2013, https://hbr.org/2013/02/use-doctrine-to-pierce-the-f.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Bond2018"
+key "Bond2018"
+literal "false"
+
+\end_inset
+
+ Bond S (2018) Amazon's ever-increasing power unnerves vendors.
+ 
+\shape italic
+Financial Times
+\shape default
+ September 20, 2018, https://www.ft.com/content/c82ce968-bc8a-11e8-94b2-17176fbf93
+f5.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Briggs2016"
+key "Briggs2016"
+literal "false"
+
+\end_inset
+
+ Briggs W (2016) 
+\shape italic
+Uncertainty: The Soul of Modeling, Probability, & Statistics
+\shape default
+ (Springer International Publishing AG, Switzerland).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Brown2015"
+key "Brown2015"
+literal "true"
+
+\end_inset
+
+ Brown D T, Link C R, Rubin S L (2015) 
+\shape italic
+
+\begin_inset Quotes eld
+\end_inset
+
+Moneyball
+\shape default
+ After 10 Years: How Have Major League Baseball Salaries Adjusted?
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\shape italic
+Journal of Sports Economics
+\shape default
+ 18(8):771-786.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Brunnermeier2001"
+key "Brunnermeier2001"
+literal "false"
+
+\end_inset
+
+ Brunnermeier M K (2001) 
+\shape italic
+Asset Pricing under Asymmetric Information: Bubbles, Crashes, Technical
+ Analysis, and Herding
+\shape default
+ (Oxford University Press, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Bryce2007"
+key "Bryce2007"
+literal "false"
+
+\end_inset
+
+ Bryce D J, Dyer J H (2017) Strategies to Crack Well-Guarded Markets.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ May 2007, https://hbr.org/2019/04/5-myths-about-strategy.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Bungay2019"
+key "Bungay2019"
+literal "false"
+
+\end_inset
+
+S.
+ Bungay (2019) Five Myths about Strategy.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ May 2007, https://hbr.org/2007/05/strategies-to-crack-well-guarded-markets.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Carr2003"
+key "Carr2003"
+literal "false"
+
+\end_inset
+
+ Carr N G (2003) IT Doesn't Matter.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+, May 2003, https://hbr.org/2003/05/it-doesnt-matter.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Cattani2018"
+key "Cattani2018"
+literal "true"
+
+\end_inset
+
+ Cattani G, Sands D, Porac J, Greenberg J (2018) Competitive Sensemaking
+ in Value Creation and Capture.
+ 
+\shape italic
+Strategy Science
+\shape default
+ 3(4):632-657.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Christensen2004"
+key "Christensen2004"
+literal "true"
+
+\end_inset
+
+ Christensen C M, Anthony S D, Roth E A (2004) 
+\shape italic
+Seeing What's Next ? Using Theories of Innovation to Predict Industry Change
+\shape default
+ (Harvard Business School Press, Boston, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Christensen2015"
+key "Christensen2015"
+literal "true"
+
+\end_inset
+
+ Christensen C M, Raynor M E, McDonald R (2015) What Is Disruptive Innovation?
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ December 2015, https://hbr.org/2015/12/what-is-disruptive-innovation.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Chamoroo2018"
+key "Chamoroo2018"
+literal "false"
+
+\end_inset
+
+ Chamoroo-Premuzic T (2018) Take Control of Your Learning at Work.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ July 20, 2018, https://hbr.org/2018/07/take-control-of-your-learning-at-work.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Chomsky2014"
+key "Chomsky2014"
+literal "false"
+
+\end_inset
+
+ Chomsky N (2014) 
+\shape italic
+Aspects of the Theory of Syntax
+\shape default
+ (MIT Press, Cambridge, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Chui2018"
+key "Chui2018"
+literal "true"
+
+\end_inset
+
+ Chui M, Manyika J Miremadi M (2018) 
+\begin_inset Quotes eld
+\end_inset
+
+What AI can and can't do (yet) for your business.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\shape italic
+McKinsey Quarterly
+\shape default
+ January 2018, https://mck.co/2tmH8Az.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Congdon-Hohman2017"
+key "Congdon-Hohman2017"
+literal "false"
+
+\end_inset
+
+ Congdon-Hohman J, Lanning, J A (2015) Beyond 
+\shape italic
+Moneyball
+\shape default
+: Changing Compensation in MLB.
+ 
+\shape italic
+Journal of Sports Economics
+\shape default
+ 19(7):1046-1061.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Cover1991"
+key "Cover1991"
+literal "false"
+
+\end_inset
+
+ Cover T M, Thomas J A (1991) 
+\shape italic
+Elements of Information Theory
+\shape default
+ (Wiley-Interscience, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Dance2018"
+key "Dance2018"
+literal "true"
+
+\end_inset
+
+ Dance G J X, LaForgia M, Confessore, N (2018) As Facebook Raised a Privacy
+ Wall, It Carved an Opening for Tech Giants.
+ 
+\shape italic
+New York Times
+\shape default
+ December 18, 2018, https://nyti.ms/2tm3Jx1.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Davenport2018"
+key "Davenport2018"
+literal "false"
+
+\end_inset
+
+ Davenport T H, Ronanki R (2018) Artificial Intelligence for the Real World.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ January-February 2018, https://hbr.org/2018/01/artificial-intelligence-for-the-r
+eal-world.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Dempster1967"
+key "Dempster1967"
+literal "false"
+
+\end_inset
+
+ Dempster A P (1967) Upper and Lower Probabilities Induced by a Multivalued
+ Mapping.
+ 
+\shape italic
+The Annals of Mathematical Statistics
+\shape default
+ 38(2):325-339.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Denison1995"
+key "Denison1995"
+literal "false"
+
+\end_inset
+
+ Denison D R , Mishra A K (1995) Toward a Theory of Organizational Culture
+ and Effectiveness.
+ 
+\shape italic
+Organization Science
+\shape default
+ 6(2):204-223.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Denrell2001"
+key "Denrell2001"
+literal "false"
+
+\end_inset
+
+ Denrell J, March J G (2001) Adaptation as Information Restriction: The
+ Hot Stove Effect.
+ 
+\shape italic
+Organization Science
+\shape default
+ 12(5):523?538.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Dixit1994"
+key "Dixit1994"
+literal "false"
+
+\end_inset
+
+ Dixit A K, Pindyck R S (1994) 
+\shape italic
+Investment Under Uncertainty
+\shape default
+ (Princeton University Press, Princeton, NJ).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Drucker1992"
+key "Drucker1992"
+literal "false"
+
+\end_inset
+
+ Drucker P F (1992) The New Society of Organizations.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ September-October 1992, https://hbr.org/1992/09/the-new-society-of-organizations.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Drucker1999"
+key "Drucker1999"
+literal "false"
+
+\end_inset
+
+ Drucker P F (1999) Knowledge-Worker Productivity: The Biggest Challenge.
+ 
+\shape italic
+California Management Review
+\shape default
+ 41(2):79-94.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Edelman2015"
+key "Edelman2015"
+literal "false"
+
+\end_inset
+
+ Edelman B (2015) How to Launch Your Digital Platform.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ April 2015, https://hbr.org/2015/04/how-to-launch-your-digital-platform.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Evans2016"
+key "Evans2016"
+literal "false"
+
+\end_inset
+
+ Evans D S, Schmalensee R (2016) The Businesses That Platforms Are Actually
+ Disrupting.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ September 21, 2016, https://hbr.org/2016/09/the-businesses-that-platforms-are-ac
+tually-disrupting.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Fein1999"
+key "Fein1999"
+literal "false"
+
+\end_inset
+
+Fein A J, Jap S D (1999) Manage Consolidation in the Distribution Channel.
+ 
+\shape italic
+MITSloan Management Review
+\shape default
+ Fall 1999, https://sloanreview.mit.edu/article/manage-consolidation-in-the-distri
+bution-channel/.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "deFinetti2017"
+key "deFinetti2017"
+literal "false"
+
+\end_inset
+
+ de Finetti B (2017), 
+\shape italic
+Theory of Probability: A Critical Introductory Treatment
+\shape default
+ (John Wiley & Sons, 2017, West Sussex, UK).
+ (Originally published 
+\shape italic
+Teoriea Delle Probabilita
+\shape default
+, Wiley, 1970.)
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Fleish2010"
+key "Fleish2010"
+literal "false"
+
+\end_inset
+
+ Fleisch E (2010) What is the Internet of Things? An Economic Perspective.
+ 
+\shape italic
+Economics, Management, and Financial Markets
+\shape default
+ 5(2):125-157.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Flyvbjerg2011"
+key "Flyvbjerg2011"
+literal "false"
+
+\end_inset
+
+ Flyvbjerg B, Budzier A (2011) Why Your IT Project May Be Riskier Than You
+ Think.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ September 2011, https://hbr.org/2011/09/why-your-it-project-may-be-riskier-than-
+you-think.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Foroohar2019"
+key "Foroohar2019"
+literal "false"
+
+\end_inset
+
+ Foroohar R (2019) America's new antitrust agenda.
+ 
+\shape italic
+Financial Times
+\shape default
+ February 3, 2019, https://www.ft.com/content/c27a517a-2631-11e9-8ce6-5db4543da632.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Gallagher1968"
+key "Gallagher1968"
+literal "false"
+
+\end_inset
+
+ Gallagher R G (1968) 
+\shape italic
+Information Theory and Reliable Communication
+\shape default
+ (John Wiley & Sons, New York).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Garton2017"
+key "Garton2017"
+literal "false"
+
+\end_inset
+
+ Garton E (2017) Is Your Company Actually Set Up to Support Your Strategy?
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ November 22, 2017, https://hbr.org/2017/11/is-your-company-actually-set-up-to-su
+pport-your-strategy.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Groysberg2018"
+key "Groysberg2018"
+literal "true"
+
+\end_inset
+
+ Groysberg B, Lee J, Price J, Cheng J Y J (2018) The Leader's Guide to Corporate
+ Culture.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ January-February 2018, https://hbr.org/2018/01/the-culture-factor.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Garton2017"
+key "Garton2017"
+literal "false"
+
+\end_inset
+
+ Garton E (2017) Is Your Company Actually Set Up to Support Your Strategy?
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ November 22, 2017, https://hbr.org/2017/11/is-your-company-actually-set-up-to-su
+pport-your-strategy.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Grant1996"
+key "Grant1996"
+literal "false"
+
+\end_inset
+
+R.
+ M.
+ Grant (1996) Toward a knowledge-based theory of the firm.
+ 
+\emph on
+Strategic Management Journal
+\emph default
+ 17:109-122.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Hamlett2007"
+key "Hamlett2007"
+literal "false"
+
+\end_inset
+
+Hamlett N (2007) IT Outsourcing Impacts on Enterprise Architecture.
+ 
+\shape italic
+IEEE IT Professional
+\shape default
+ 2(9):34-40.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Hamlett2019"
+key "Hamlett2019"
+literal "false"
+
+\end_inset
+
+Hamlett N (2019) Differentiated Decision-Making as a Basis for Competitive
+ Advantage.
+ 
+\emph on
+Advances in Decision Analysis 2019, Milan, IT, June 19-21, 2019
+\emph default
+.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Hill2015"
+key "Hill2015"
+literal "false"
+
+\end_inset
+
+ Hill A (2015) How disruption has become a feature of our times.
+ 
+\shape italic
+Financial Times
+\shape default
+ March 19, 2015, https://www.ft.com/content/e7173dbc-ad28-11e4-a5c1-00144feab7de.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Howard2016"
+key "Howard2016"
+literal "false"
+
+\end_inset
+
+R.
+ A.
+ Howard, A.
+ E.
+ Abbas, 
+\emph on
+Foundations of Decision Analysis
+\emph default
+, Upper Saddle River, NJ: Pearson, 2016.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Hyde2018"
+key "Hyde2018"
+literal "false"
+
+\end_inset
+
+ Hyde R R (2018) How Walmart Model Wins With 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+Everyday Low Prices
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+"
+\end_layout
+
+\end_inset
+
+.
+ 
+\shape italic
+Investopedia
+\shape default
+ March 30, 2018, https://www.investopedia.com/articles/personal-finance/011815/how
+-walmart-model-wins-everyday-low-prices.asp.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Iansiti2017"
+key "Iansiti2017"
+literal "false"
+
+\end_inset
+
+ Iansiti M, Lakhani K R (2017) Managing Our Hub Economy.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ September-October 2017, https://hbr.org/2017/09/managing-our-hub-economy.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Jones2018"
+key "Jones2018"
+literal "false"
+
+\end_inset
+
+ Jones M T (2018) Data, structure, and the data science pipeline.
+ 
+\shape italic
+IBM Developer ? Data Science
+\shape default
+, February 1, 2018, https://developer.ibm.com/articles/ba-intro-data-science-1/.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Kane2015"
+key "Kane2015"
+literal "true"
+
+\end_inset
+
+ Kane G C, Palmer D, Nguyen-Phillips A, Kiron D, Buckley N (2015) Strategy,
+ not Technology, Drives Digital Transformation.
+ 
+\shape italic
+MITSloan Management Review
+\shape default
+, March 8, 2016, https://sloanreview.mit.edu/projects/strategy-drives-digital-tran
+sformation/.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Keynes1921"
+key "Keynes1921"
+literal "false"
+
+\end_inset
+
+ Keynes J M (1921) 
+\shape italic
+A Treatise on Probability
+\shape default
+ (MacMillan and Co., Ltd., London).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Kochebnderfer2015"
+key "Kochebnderfer2015"
+literal "false"
+
+\end_inset
+
+ Kochenderfer M J (2015) 
+\shape italic
+Decision Making Under Uncertainty
+\shape default
+ (MIT Press, Boston, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Krensky2017"
+key "Krensky2017"
+literal "false"
+
+\end_inset
+
+ Krensky P, Hare J (2017) Hype Cycle for Data Science and Machine Learning,
+ 2017.
+ The Gartner Group, Report ID G00325005, July 28, 2017, https://www.gartner.com/do
+c/3772081/hype-cycle-data-science-machine.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Laffont1989"
+key "Laffont1989"
+literal "true"
+
+\end_inset
+
+ Laffont J J, Bonin J P, Bonin H (1989) 
+\shape italic
+The Economics of Uncertainty and Information
+\shape default
+, (Harvard Business School Press, Cambridge, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "LaValle2011"
+key "LaValle2011"
+literal "true"
+
+\end_inset
+
+ LaValle S, Lesser E, Shockley R, Hopkins M S, Kruschwitz N (2011) Big Data,
+ Analytics and the Path From Insights to Value 
+\shape italic
+MITSloan Management Review
+\shape default
+, Wihter 2011, https://sloanreview.mit.edu/article/big-data-analytics-and-the-path
+-from-insights-to-value/.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Leiblein2018"
+key "Leiblein2018"
+literal "true"
+
+\end_inset
+
+ Leiblein M J, Reuer J J, Zenger T (2018) What Makes a Decision Strategic?
+ 
+\shape italic
+Strategy Science
+\shape default
+ 3(4):558-573.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Lewis2004"
+key "Lewis2004"
+literal "false"
+
+\end_inset
+
+ Lewis M (2004) 
+\shape italic
+Moneyball: The Art of Winning an Unfair Game
+\shape default
+ (W.
+ W.
+ Norton & Co, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Lynch2017"
+key "Lynch2017"
+literal "false"
+
+\end_inset
+
+ Lynch G S (2017) 
+\shape italic
+Uncertainty Advantage: Leadership Lessons for Turning Risk Outside-In
+\shape default
+ (Archway Publishing, Bloomington, IN).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Manning2012"
+key "Manning2012"
+literal "true"
+
+\end_inset
+
+ Manning H, Bodine K, Bernoff J (2012) 
+\shape italic
+Outside-In: The Power of Putting Customers at the Center of Your Business
+\shape default
+ (Amazon Publishing).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Martin2015"
+key "Martin2015"
+literal "false"
+
+\end_inset
+
+ Martin R L (2015) Strategy Is About Both Resources and Positioning.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ April 27, 2015, https://hbr.org/2015/04/strategy-is-about-both-resources-and-pos
+itioning.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "McLain2018"
+key "McLain2018"
+literal "false"
+
+\end_inset
+
+ McLain S (2018) Honda Took Pride in Doing Everything Itself.
+ The Cost of Technology Made That Impossible.
+ 
+\shape italic
+Wall Street Journal
+\shape default
+ August 5, 2018, https://on.wsj.com/2tjJikg.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Mims2018"
+key "Mims2018"
+literal "false"
+
+\end_inset
+
+ Mims C (2018) Why Do the Biggest Companies Keep Getting Bigger? It?s How
+ They Spend on Tech.
+ 
+\shape italic
+Wall Street Journal
+\shape default
+ July 26, 2018, https://www.wsj.com/articles/why-do-the-biggest-companies-keep-get
+ting-bigger-its-how-they-spend-on-tech-1532610001.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Moore2004"
+key "Moore2004"
+literal "false"
+
+\end_inset
+
+ Moore G A (2004) Darwin and the Demon.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ July-August 2004, https://hbr.org/2004/07/darwin-and-the-demon-innovating-within
+-established-enterprises.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Narang2009"
+key "Narang2009"
+literal "false"
+
+\end_inset
+
+ Narang R K (2009) 
+\shape italic
+Inside the Black Box: The Simple Truth about Quantitive Trading
+\shape default
+ (John Wiley & Sons, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Nickerson2018"
+key "Nickerson2018"
+literal "false"
+
+\end_inset
+
+ Nickerson J, Argyres N (2018) Strategizing Before Strategic Decision Making.
+ 
+\shape italic
+Strategy Science
+\shape default
+ 3(4):592-605.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Nolan2005"
+key "Nolan2005"
+literal "false"
+
+\end_inset
+
+ Nolan R, McFarlan, F W (2005) Information Technology and the Board of Directors.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ October 2005, https://hbr.org/2005/10/information-technology-and-the-board-of-di
+rectors.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Papayoanou2010"
+key "Papayoanou2010"
+literal "false"
+
+\end_inset
+
+ Papayoanou P (2010) 
+\shape italic
+Game Theory for Business: A Primer in Strategic Gaming
+\shape default
+ (Probabilistic Publishing, USA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Pettigrew2016"
+key "Pettigrew2016"
+literal "false"
+
+\end_inset
+
+ Pettigrew R (2016) 
+\shape italic
+Accuracy and the Laws of Credence
+\shape default
+ (Oxford University Press, Oxford, UK).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Pisano2019"
+key "Pisano2019"
+literal "false"
+
+\end_inset
+
+ Pisano G P (2019) The Hard Truth About Innovative Cultures.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ January-February 2019, https://hbr.org/2019/01/the-hard-truth-about-innovative-c
+ultures.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Porter1985"
+key "Porter1985"
+literal "false"
+
+\end_inset
+
+ Porter M E, Millar V E (1985) How Information Gives You Competitive Advantage.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ July 1985, https://hbr.org/1985/07/how-information-gives-you-competitive-advanta
+ge.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Porter1990"
+key "Porter1990"
+literal "false"
+
+\end_inset
+
+ Porter M E (1990) 
+\shape italic
+The Competitive Advantage of Nations
+\shape default
+ (Free Press, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Porter1996"
+key "Porter1996"
+literal "false"
+
+\end_inset
+
+ Porter M (1996) What Is Strategy? 
+\shape italic
+Harvard Business Review
+\shape default
+ November-December 1996, https://hbr.org/1996/11/what-is-strategy.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Porter2014"
+key "Porter2014"
+literal "false"
+
+\end_inset
+
+ Porter M E, Heppelmann J E (2014) How Smart, Connected Products Are Transformin
+g Competition.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ November 2014, https://hbr.org/2014/11/how-smart-connected-products-are-transfor
+ming-competition.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Porter2015"
+key "Porter2015"
+literal "false"
+
+\end_inset
+
+ Porter M E, Heppelmann J E (2015) How Smart, Connected Products Are Transformin
+g Companies.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ October 2014, https://hbr.org/2015/10/how-smart-connected-products-are-transform
+ing-companies.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ransbotham2016"
+key "Ransbotham2016"
+literal "true"
+
+\end_inset
+
+ Ransbotham S, Kiron D, Kirk-Prentice, P (2016) Beyond the Hype: The Hard
+ Work behind Analytics Success.
+ 
+\shape italic
+MITSloan Management Review
+\shape default
+, March 8, 2016, https://sloanreview.mit.edu/projects/the-hard-work-behind-data-an
+alytics-strategy/.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Redman2015"
+key "Redman2015"
+literal "false"
+
+\end_inset
+
+ Redman T C (2015) 4 Business Models for the Data Age.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ May 20, 2015, https://hbr.org/2015/05/4-business-models-for-the-data-age.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Redman2018a"
+key "Redman2018a"
+literal "false"
+
+\end_inset
+
+ Redman T C (2018a) Are You Setting Your Data Scientists Up to Fail? 
+\shape italic
+Harvard Business Review
+\shape default
+, January 25, 2018, https://hbr.org/2018/01/are-you-setting-your-data-scientists-
+up-to-fail.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Redman2018b"
+key "Redman2018b"
+literal "false"
+
+\end_inset
+
+ Redman T C (2018b) If Your Data Is Bad, Your Machine Learning Tools Are
+ Useless.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+, April 2, 2018, https://hbr.org/2018/04/if-your-data-is-bad-your-machine-learnin
+g-tools-are-useless.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Reeves2011"
+key "Reeves2011"
+literal "false"
+
+\end_inset
+
+ Reeves M, Deimler M (2011) Adaptability: The New Competitive Advantage.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ July-August 2011, https://hbr.org/2011/07/adaptability-the-new-competitive-advan
+tage.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Reeves2012"
+key "Reeves2012"
+literal "false"
+
+\end_inset
+
+ Reeves M, Deimler M (2012) 
+\shape italic
+Adaptive Advantage: Winning Strategies for Uncertain Times
+\shape default
+ (Boston Consulting Group, Boston, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ross2006"
+key "Ross2006"
+literal "true"
+
+\end_inset
+
+ Ross J W, Weill P, Robertson D (2006) 
+\shape italic
+Enterprise Architecture as Strategy
+\shape default
+ (Harvard Business School Press, Boston, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Salicone2018"
+key "Salicone2018"
+literal "false"
+
+\end_inset
+
+ Salicone S, Prioli M (2018) 
+\shape italic
+Measuring Uncertainty within the Theory of Evidence
+\shape default
+ (Springer International Publishing AG, Cham, Switzerland).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Sameer2004"
+key "Sameer2004"
+literal "false"
+
+\end_inset
+
+ Sameer K, Eikhoff J H (2004) Outsourcing: When and how should it be done?
+ 
+\shape italic
+Information Knowledge Systems Management
+\shape default
+ 5(4):245-259.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Samuelson2004"
+key "Samuelson2004"
+literal "false"
+
+\end_inset
+
+ Samuelson L (2004) Modeling Knowledge in Economic Analysis.
+ 
+\shape italic
+Journal of Economic Literature
+\shape default
+ 42(2):397-403.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Seetharaman2011"
+key "Seetharaman2011"
+literal "false"
+
+\end_inset
+
+ Seetharaman D, Selyukh A (2011) Hyundai finds solution for pigment shortage.
+ 
+\shape italic
+Reuters
+\shape default
+ April 21, 2011 https://reut.rs/2tjQ5KT.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Shafer1976"
+key "Shafer1976"
+literal "false"
+
+\end_inset
+
+ Shafer G (1976) 
+\shape italic
+A Mathematical Theory of Evidence
+\shape default
+ (Princeton University Press, Princeton, NJ).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Shannon1948"
+key "Shannon1948"
+literal "false"
+
+\end_inset
+
+ Shannon C E (1948) A Mathematical Theory of Communication.
+ 
+\shape italic
+Bell Systems Technical Journal
+\shape default
+ 27:379-423.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Shapiro1998"
+key "Shapiro1998"
+literal "false"
+
+\end_inset
+
+ Shapiro C, Varian H R (1998) 
+\shape italic
+Information Rules: A Strategic Guide to the Network Economy 
+\shape default
+ (Harvard Business Review Press, Boston, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Smets1994"
+key "Smets1994"
+literal "false"
+
+\end_inset
+
+P.
+ Smets and R.
+ Kennis (1994) The Transferable Belief Model.
+ 
+\emph on
+Artifical Intelligence
+\emph default
+ 66:191-234.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Suarez2005"
+key "Suarez2005"
+literal "false"
+
+\end_inset
+
+ Suarez F, Lanzolla G (2005) The Half-Truth of First-Mover Advantage.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ April 27, 2015, https://hbr.org/2005/04/the-half-truth-of-first-mover-advantage.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Teece2009"
+key "Teece2009"
+literal "false"
+
+\end_inset
+
+ Teece D (2009) 
+\shape italic
+Dynamic Capabilities
+\shape default
+ (Oxford University Press, New York, NY).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Thomke2014"
+key "Thomke2014"
+literal "false"
+
+\end_inset
+
+ Thonmke S, Manzi J (2014) The Discipline of Business Experimentation.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ December 2014, https://hbr.org/2014/12/the-discipline-of-business-experimentatio
+n.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Trevor2018"
+key "Trevor2018"
+literal "false"
+
+\end_inset
+
+ Trevor J (2018) Is Anyone In Your Company Paying Attention to Strategic
+ Alignment? 
+\shape italic
+Harvard Business Review
+\shape default
+ January 12, 2018, https://hbr.org/2018/01/is-anyone-in-your-company-paying-atten
+tion-to-strategic-alignment.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Ulrich2004"
+key "Ulrich2004"
+literal "false"
+
+\end_inset
+
+ Ulrich C (2004) Valuation of IT Investments Using Real Options Theory.
+ 
+\shape italic
+Business & Information Systems Engineering
+\shape default
+ 5(5):331-341.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "VanAlstyne2016"
+key "VanAlstyne2016"
+literal "true"
+
+\end_inset
+
+ Van Alstybne, M.
+ W.
+ Parker, G.
+ G., Chouldary, S.
+ P., (2016) Pipelines, Platforms, and the New Rules of Strategy.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+, April 2016, https://hbr.org/2016/04/pipelines-platforms-and-the-new-rules-of-st
+rategy.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Wang2012"
+key "Wang2012"
+literal "false"
+
+\end_inset
+
+ Wang R (2012) What a Big-Data Business Model Looks Like.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ December 6, 2012, https://hbr.org/2012/12/what-a-big-data-business-model.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Wartzman2014"
+key "Wartzman2014"
+literal "false"
+
+\end_inset
+
+ Wartzman R (2014) What Peter Drucker Knew About 2020.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+: October 16, 2014, https://hbr.org/2014/10/what-peter-drucker-knew-about-2020.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Weill2006"
+key "Weill2006"
+literal "false"
+
+\end_inset
+
+ Weill P, Ross J W (2006) 
+\shape italic
+IT Governance
+\shape default
+ (Harvard Business School Press, Boston, MA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Wen2019"
+key "Wen2019"
+literal "false"
+
+\end_inset
+
+ W.
+ Wen and F Zhu (2019) Threat of Platform-Owner Entry and Complementor Responses:
+ Evidence from the Mobile App Market.
+ 
+\emph on
+Strategic Management Journal 
+\emph default
+(forthcoming).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Wessel2012"
+key "Wessel2012"
+literal "false"
+
+\end_inset
+
+ Wessel M, Christensen C M (2012) Surviving Disruption.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ December 2011, https://hbr.org/2012/12/surviving-disruption.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Wigglesworth2018a"
+key "Wigglesworth2018a"
+literal "false"
+
+\end_inset
+
+ Wigglesworth R, Fortado F (2018a) (2018a) Can factor investing kill off
+ the hedge fund? 
+\shape italic
+Financial Times
+\shape default
+ July 22, 2018.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Wigglesworth2018b"
+key "Wigglesworth2018b"
+literal "false"
+
+\end_inset
+
+ Wigglesworth R, Fortado F (2018b) Quant hedge funds lose their allure as
+ performance sags.
+ 
+\shape italic
+Financial Times
+\shape default
+ July 25, 2018, https://www.ft.com/content/e33e117e-8f7a-11e8-b639-7680cedcc421.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Willhite2014"
+key "Willhite2014"
+literal "false"
+
+\end_inset
+
+ Willhite J (2014) Getting Started in ?Big Data.
+ 
+\shape italic
+Wall Street Journal
+\shape default
+ February 4, 2014, https://blogs.wsj.com/cfo/2014/02/04/getting-started-in-big-dat
+a/.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Zhang2004"
+key "Zhang2004"
+literal "false"
+
+\end_inset
+
+ Zhang G P (2014) 
+\shape italic
+Neural Networks in Business Forecasting
+\shape default
+ (Idea Group Publishing, Hershey, PA).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Zhong2017"
+key "Zhong2017"
+literal "false"
+
+\end_inset
+
+ Zhong Y (2017) A Theory of Semantic Information, Presented at the IS4SI
+ 2017 Summit DIGITALIZATION FOR A SUSTAINABLE SOCIETY, Gothenburg, Sweden,
+ 12?16 June 2017.
+ 
+\shape italic
+MDPI Proceedings
+\shape default
+.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "Zhu2016"
+key "Zhu2016"
+literal "false"
+
+\end_inset
+
+ Zhu F, Furr N (2016) Products to Platforms: Making the Leap.
+ 
+\shape italic
+Harvard Business Review
+\shape default
+ April 2016, https://hbr.org/2016/04/products-to-platforms-making-the-leap.
+\end_layout
+
+\end_body
+\end_document
